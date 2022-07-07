@@ -26,3 +26,4 @@ enableRobotsTXT = true
    
 [params]
    geekdocLogo = "logo.svg"
+   geekdocMenuBundle = true
