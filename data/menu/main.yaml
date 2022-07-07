@@ -1,19 +1,19 @@
 ---
 main:
   - name: U01 - C#
-    ref: "/U01 - CSharp"
+    ref: "/u01-csharp"
     icon: "gdoc_tag"
     sub:
       - name: P01 - C# 8 for Begginers
-        ref: "/U01 - CSharp/P01 - CSharp 8 for Begginers"
+        ref: "/u01-csharp/p01-csharp-8-for-begginers"
         sub:
           - name: Self Control
-            ref: "/U01 - CSharp/P01 - CSharp 8 for Begginers/Self Control"
+            ref: "/u01-csharp/p01-csharp-8-for-begginers/self-control"
           - name: Tasks
-            ref: "/U01 - CSharp/P01 - CSharp 8 for Begginers/Tasks"
+            ref: "/u01-csharp/p01-csharp-8-for-begginers/tasks"
   - name: U02 - Databases
-    ref: "/U02 - Databases"
+    ref: "/u02-databases"
     icon: "gdoc_tag"
     sub:
       - name: P01 - Transact SQL
-        ref: "/U02 - Databases/P01 - Transact SQL"
+        ref: "/u02-databases/p01-transact-sql"
