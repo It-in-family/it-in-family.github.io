@@ -1,12 +1,18 @@
-# ИНСТРУКЦИЯ ПО ПРОХОЖДЕНИЮ .NET FAMILY MASTERY
+# Starting guide for .NET FAMILY MASTERY
+
+## Initial Steps
+
+1. Create a Github account if you haven't had it. [Sign Up](https://github.com/signup?ref_cta=Sign+up)
+2. Make sure that you have a email address which can be used to contact with you
+3. Fill a [form](https://forms.gle/RWyQ1hUiuk26gacU7) with contact details which allow coordinators to add you you to all nessesary resources.
+3.1. Invite link to the Telegram channel will be shared with you
+3.2. Repository will be created on GitHub and shared with you
 
 ## Основная информация
 
-1.	Добавится в [Telegram-канал](https://t.me/+DA2gF0euGCY5M2Vi). Здесь можно задавать и обсуждать любые вопросы относительно обучения.
-2.  Создать аккаунт в [GitHub](https://github.com/) и прислать его в Telegram-канал или координатору/ментору, чтобы вас добавили в организацию.
-3.  После прохождения курса по **Git** нужно будет сделать *fork* репозитория, который содержит шаблон структуры для заполнения решениями задач. В этот созданный репозиторий вы будете добавлять свои решения задач, согласно структуре.
-4.  Курс будет проходить на платформе [ITVDN](https://itvdn.com/ru) (Специальность [.NET Developer](https://itvdn.com/ru/specialities/net-developer)). Необходимые данные для обучения на платформе будут предоставлены.
-5.	Для получения практических навыков рекомендуется использовать платформу [Codewars](https://www.codewars.com/). Зарегистрироваться на платформе можно самостоятельно.
+1. После прохождения курса по **Git** нужно будет сделать *fork* репозитория, который содержит шаблон структуры для заполнения решениями задач. В этот созданный репозиторий вы будете добавлять свои решения задач, согласно структуре.
+2. Курс будет проходить на платформе [ITVDN](https://itvdn.com/ru) (Специальность [.NET Developer](https://itvdn.com/ru/specialities/net-developer)). Необходимые данные для обучения на платформе будут предоставлены.
+3. Для получения практических навыков рекомендуется использовать платформу [Codewars](https://www.codewars.com/). Зарегистрироваться на платформе можно самостоятельно.
 
 ## Как будет проходить обучение?
 
