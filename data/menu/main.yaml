@@ -20,10 +20,6 @@ main:
         - name: Practice  
           ref: "/u02-csharp/p01-csharp-8-starter/Practice" 
           sub:
-          - name: ITVDN
-            ref: "/u02-csharp/p01-csharp-8-starter/Practice/tasks-Itvdn" 
-          - name: Code practice
-            ref: "/u02-csharp/p01-csharp-8-starter/Practice/tasks-Itvdn-code-practice" 
           - name: Codewars
             ref: "/u02-csharp/p01-csharp-8-starter/Practice/tasks-codewars-code-practice" 
           - name: Additional tasks
