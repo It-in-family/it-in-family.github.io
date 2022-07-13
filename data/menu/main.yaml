@@ -1,19 +1,33 @@
 ---
 main:
-  - name: U00 - Предисловие
-    ref: "/u00-preface"
-    icon: "gdoc_tag"
   - name: U01 - C#
     ref: "/u01-csharp"
     icon: "gdoc_tag"
     sub:
-      - name: P01 - C# 8 for Begginers
-        ref: "/u01-csharp/p01-csharp-8-for-begginers"
+      - name: P01 - C# 8 Starter
+        ref: "/u01-csharp/p01-csharp-8-starter"
         sub:
-          - name: Self Control
-            ref: "/u01-csharp/p01-csharp-8-for-begginers/self-control"
-          - name: Tasks
-            ref: "/u01-csharp/p01-csharp-8-for-begginers/tasks"
+          - name: Ch1 - First program
+            ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program"
+            sub:
+            - name: Theory
+              ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Theory" 
+              sub:
+              - name: Additional info
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Theory/additional-info" 
+              - name: Self Control
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Theory/self-control"               
+            - name: Practice  
+              ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Practice" 
+              sub:
+              - name: ITVDN
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Practice/tasks-Itvdn" 
+              - name: Code practice
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Practice/tasks-Itvdn-code-practice" 
+              - name: Codewars
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Practice/tasks-codewars-code-practice" 
+              - name: Additional tasks
+                ref: "/u01-csharp/p01-csharp-8-starter/ch1-first-program/Practice/tasks-additional"
   - name: U02 - Databases
     ref: "/u02-databases"
     icon: "gdoc_tag"
