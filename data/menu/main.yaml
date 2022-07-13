@@ -10,13 +10,10 @@ main:
       - name: P01 - C# 8 Starter
         ref: "/u02-csharp/p01-csharp-8-starter"
         sub:
-        - name: Theory
-          ref: "/u02-csharp/p01-csharp-8-starter/Theory" 
-          sub:
-          - name: Additional info
-            ref: "/u02-csharp/p01-csharp-8-starter/Theory/additional-info" 
-          - name: Questions for Interview
-            ref: "/u02-csharp/p01-csharp-8-starter/Theory/questions-for-interview"
+        - name: Additional info
+          ref: "/u02-csharp/p01-csharp-8-starter/additional-info" 
+        - name: Questions for Interview
+          ref: "/u02-csharp/p01-csharp-8-starter/questions-for-interview"
         - name: Practice  
           ref: "/u02-csharp/p01-csharp-8-starter/additional-practice" 
           sub:
