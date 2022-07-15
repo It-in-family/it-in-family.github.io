@@ -81,8 +81,8 @@
 - [Git-Book - Ветвления и слияния](https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F)
 - [Видео урок Ветки – Введение](https://youtu.be/aSohh-m5vJY)
 - [Видео урок Ветки – Создание и переключение](https://youtu.be/ydtgQSaUzw0)
-- [Видео урок Ветки – Ветки – Команда checkout при незакоммиченных изменениях](https://youtu.be/KxKjBneF_NI)
-- [Видео урок Ветки – Ветки – Восстановление предыдущих версий файлов](https://youtu.be/3z-LjQacu2Q)
-- [Видео урок Ветки – Ветки – Слияние веток "перемоткой"](https://youtu.be/g--N6QHbt6Q)
-- [Видео урок Ветки – Ветки – Удаление веток"](https://youtu.be/yFVPNYSTlLQ)
+- [Видео урок Ветки – Команда checkout при незакоммиченных изменениях](https://youtu.be/KxKjBneF_NI)
+- [Видео урок Ветки – Восстановление предыдущих версий файлов](https://youtu.be/3z-LjQacu2Q)
+- [Видео урок Ветки – Слияние веток "перемоткой"](https://youtu.be/g--N6QHbt6Q)
+- [Видео урок Ветки – Удаление веток"](https://youtu.be/yFVPNYSTlLQ)
 {{< /expand >}}
