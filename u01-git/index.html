@@ -5,21 +5,24 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=color-scheme content="light dark">
 <meta name=generator content="Hugo 0.91.2">
-<meta name=description content="Git     ">
+<meta name=description content="Основы работы с Git     Использование системы контроля версий Git сегодня практически является стандартом индустрии. С помощью Git контролировать изменения в файлах проектов могут как разработчики ПО, так и графические, и web-дизайнеры, инженеры-проектировщики, и другие участники процесса создания программного продукта.
+В данном курсе будут рассмотрены основы использования Git. Вы познакомитесь с тем, как выполнить установку и первичную настройку Git, узнаете, как создавать свой репозиторий. Вы научитесь добавлять файлы в систему контроля версий и отслеживать их изменения.">
 <title>U01 Git | IT in Family</title>
 <link rel=icon type=image/svg+xml href=/favicon/favicon.svg>
 <link rel=icon type=image/png sizes=32x32 href=/favicon/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon/favicon-16x16.png>
 <meta property="og:title" content="U01 Git">
 <meta property="og:site_name" content="IT in Family">
-<meta property="og:description" content="Git     ">
+<meta property="og:description" content="Основы работы с Git     Использование системы контроля версий Git сегодня практически является стандартом индустрии. С помощью Git контролировать изменения в файлах проектов могут как разработчики ПО, так и графические, и web-дизайнеры, инженеры-проектировщики, и другие участники процесса создания программного продукта.
+В данном курсе будут рассмотрены основы использования Git. Вы познакомитесь с тем, как выполнить установку и первичную настройку Git, узнаете, как создавать свой репозиторий. Вы научитесь добавлять файлы в систему контроля версий и отслеживать их изменения.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://localhost/u01-git/">
 <meta property="article:section" content="U01 Git">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="U01 Git">
-<meta name=twitter:description content="Git     ">
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"TechArticle","articleSection":"U01 Git","name":"U01 Git","url":"http://localhost/u01-git/","headline":"U01 Git","description":"Git     ","wordCount":"1","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost/u01-git/"},"copyrightHolder":"IT in Family","copyrightYear":"0001","dateCreated":"0001-01-01T00:00:00.00Z","datePublished":"0001-01-01T00:00:00.00Z","dateModified":"0001-01-01T00:00:00.00Z","publisher":{"@type":"Organization","name":"IT in Family","url":"http://localhost","logo":{"@type":"ImageObject","url":"http://localhost/brand.svg","width":"32","height":"32"}}}</script>
+<meta name=twitter:description content="Основы работы с Git     Использование системы контроля версий Git сегодня практически является стандартом индустрии. С помощью Git контролировать изменения в файлах проектов могут как разработчики ПО, так и графические, и web-дизайнеры, инженеры-проектировщики, и другие участники процесса создания программного продукта.
+В данном курсе будут рассмотрены основы использования Git. Вы познакомитесь с тем, как выполнить установку и первичную настройку Git, узнаете, как создавать свой репозиторий. Вы научитесь добавлять файлы в систему контроля версий и отслеживать их изменения.">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"TechArticle","articleSection":"U01 Git","name":"U01 Git","url":"http://localhost/u01-git/","headline":"U01 Git","description":"Основы работы с Git     Использование системы контроля версий Git сегодня практически является стандартом индустрии. С помощью Git контролировать изменения в файлах проектов могут как разработчики ПО, так и графические, и web-дизайнеры, инженеры-проектировщики, и другие участники процесса создания программного продукта.\nВ данном курсе будут рассмотрены основы использования Git. Вы познакомитесь с тем, как выполнить установку и первичную настройку Git, узнаете, как создавать свой репозиторий. Вы научитесь добавлять файлы в систему контроля версий и отслеживать их изменения.","wordCount":"111","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost/u01-git/"},"copyrightHolder":"IT in Family","copyrightYear":"0001","dateCreated":"0001-01-01T00:00:00.00Z","datePublished":"0001-01-01T00:00:00.00Z","dateModified":"0001-01-01T00:00:00.00Z","publisher":{"@type":"Organization","name":"IT in Family","url":"http://localhost","logo":{"@type":"ImageObject","url":"http://localhost/brand.svg","width":"32","height":"32"}}}</script>
 <script src=/js/main-51ef884d.bundle.min.js></script>
 <link rel=preload as=font href=/fonts/Metropolis.woff2 type=font/woff2 crossorigin=anonymous>
 <link rel=preload as=font href=/fonts/LiberationSans.woff2 type=font/woff2 crossorigin=anonymous>
@@ -83,11 +86,53 @@
 <input type=checkbox class=hidden>
 <label>
 <span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
+<a href=/u00-preface/ class=gdoc-nav__entry>
+U00 - Preface
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
 <a href=/u01-git/ class="gdoc-nav__entry is-active">
 U01 - Git
 </a>
 </span>
 </label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/practice/ class=gdoc-nav__entry>
+Practice
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/self-control/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+</ul>
 </li>
 <li>
 <input type=checkbox class=hidden>
@@ -192,21 +237,53 @@ hidden-mobile" itemprop=breadcrumb>
 </div>
 </div>
 <article class="gdoc-markdown gdoc-markdown__align--left">
-<h1>U01 Git</h1>
 <div class=gdoc-page__anchorwrap>
-<h1 id=git>
-Git
-<a data-clipboard-text=http://localhost/u01-git/#git class="gdoc-page__anchor clip flex align-center" title="Anchor to: Git" aria-label="Anchor to: Git" href=#git><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+<h1 id=основы-работы-с-git>
+Основы работы с Git
+<a data-clipboard-text=http://localhost/u01-git/#основы-работы-с-git class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основы работы с Git" aria-label="Anchor to: Основы работы с Git" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d1%8b-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d1%81-git><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
 </a>
 </h1>
+</div>
+<p>Использование системы контроля версий Git сегодня практически является стандартом индустрии. С помощью Git контролировать изменения в файлах проектов могут как разработчики ПО, так и графические, и web-дизайнеры, инженеры-проектировщики, и другие участники процесса создания программного продукта.</p>
+<p>В данном курсе будут рассмотрены основы использования Git. Вы познакомитесь с тем, как выполнить установку и первичную настройку Git, узнаете, как создавать свой репозиторий. Вы научитесь добавлять файлы в систему контроля версий и отслеживать их изменения.</p>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/git-basics>Основной курс по GIT на ITVDN</a></p>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=71f3beec-0>
+<span>Дополнительные материалы по всему курсу</span>
+<span>...</span>
+</label>
+<input id=71f3beec-0 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<ol>
+<li>
+<p>Видео материалы:</p>
+<ul>
+<li><a class=gdoc-markdown__link href="https://www.youtube.com/watch?v=zZBiln_2FhM&t=5s">Git и GitHub Курс Для Новичков</a></li>
+<li><a class=gdoc-markdown__link href="https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb">Git курс</a></li>
+</ul>
+</li>
+<li>
+<p>Дополнительные материалы и документация:</p>
+<ul>
+<li><a class=gdoc-markdown__link href=https://tproger.ru/translations/beginner-git-cheatsheet/>От установки до основных команд</a></li>
+<li><a class=gdoc-markdown__link href=https://git-scm.com/book/ru/v2>Документация</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/java/android/22.1.php>Metanit Работа с GitHub</a></li>
+</ul>
+</li>
+</ol>
+</div>
 </div>
 </article>
 <div class="gdoc-page__footer flex flex-wrap justify-between">
 <span class=gdoc-page__nav>
+<a class="gdoc-page__nav--prev flex align-center" href=/u00-preface/ title="U00 - Preface">
+<i class=gdoc-icon>gdoc_arrow_left_alt</i>
+U00 - Preface
+</a>
 </span>
 <span class=gdoc-page__nav>
-<a class="gdoc-page__nav--next flex align-center" href=/u02-csharp/ title="U02 - C#">
-U02 - C#
+<a class="gdoc-page__nav--next flex align-center" href=/u01-git/theory/ title=Theory>
+Theory
 <i class=gdoc-icon>gdoc_arrow_right_alt</i>
 </a>
 </span>
