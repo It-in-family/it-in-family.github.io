@@ -1,8 +1,18 @@
 ---
 main:
+  - name: U00 - Preface
+    ref: "/u00-preface"
+    icon: "gdoc_tag"
   - name: U01 - Git
     ref: "/u01-git"
     icon: "gdoc_tag"
+    sub:
+      - name: Theory
+        ref: "/u01-git/theory"
+      - name: Practice
+        ref: "/u01-git/practice"
+      - name: Questions for Interview
+        ref: "/u01-git/self-control"
   - name: U02 - C#
     ref: "/u02-csharp"
     icon: "gdoc_tag"
