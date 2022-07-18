@@ -181,6 +181,7 @@
 - [Metanit - Применение делегатов](https://metanit.com/sharp/tutorial/3.43.php)
 - [Metanit - Анонимные методы](https://metanit.com/sharp/tutorial/3.15.php)
 - [Metanit - Лямбды](https://metanit.com/sharp/tutorial/3.16.php)
+- [Metanit - Замыкания](https://metanit.com/sharp/tutorial/3.54.php)
 - [Microsoft Docs - Introduction to delegates and events in C#](https://docs.microsoft.com/en-us/dotnet/csharp/delegates-overview)
 - [Microsoft Docs - System.Delegate and the delegate keyword](https://docs.microsoft.com/en-us/dotnet/csharp/delegate-class)
 - [Microsoft Docs - Common patterns for delegates](https://docs.microsoft.com/en-us/dotnet/csharp/delegates-patterns)
@@ -200,7 +201,28 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Обобщения](https://metanit.com/sharp/tutorial/3.12.php)
+- [Metanit - Наследование обобщенных типов](https://metanit.com/sharp/tutorial/3.39.php)
+- [Metanit - Null и значимые типы](https://metanit.com/sharp/tutorial/2.17.php)
+- [Metanit - Проверка на null, операторы ?. и ??](https://metanit.com/sharp/tutorial/3.26.php)
+- [Metanit - Ковариантность и контравариантность делегатов](https://metanit.com/sharp/tutorial/3.28.php)
+- [Metanit - Делегаты Action, Predicate и Func](https://metanit.com/sharp/tutorial/3.33.php)
+- [Microsoft Docs - Generic classes and methods](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics)
+- [Microsoft Docs - Generic Classes (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-classes)
+- [Microsoft Docs - Generic Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-interfaces)
+- [Microsoft Docs - Generic Methods (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-methods)
+- [Microsoft Docs - Generics and Arrays (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-and-arrays)
+- [Microsoft Docs - Generic Delegates (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-delegates)
+- [Microsoft Docs - Generics in the Run Time (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time)
+- [Microsoft Docs - Generics in the Run Time (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time)
+- [Microsoft Docs - Covariance and Contravariance (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)
+- [Microsoft Docs - Variance in Generic Interfaces (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/variance-in-generic-interfaces)
+- [Microsoft Docs - Creating Variant Generic Interfaces (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/creating-variant-generic-interfaces)
+- [Microsoft Docs - Using Variance in Interfaces for Generic Collections (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-interfaces-for-generic-collections)
+- [Microsoft Docs - Variance in Delegates (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/variance-in-delegates)
+- [Microsoft Docs - Using Variance in Delegates (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-delegates)
+- [Microsoft Docs - Using Variance for Func and Action Generic Delegates (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-for-func-and-action-generic-delegates)
+- [Microsoft Docs - Generic type parameters (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-type-parameters)
 {{< /expand >}}
 
 [Ограничения универсальных шаблонов в C#]:----------------------------------------------------------
@@ -212,7 +234,8 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Ограничения обобщений](https://metanit.com/sharp/tutorial/3.38.php)
+- [Microsoft Docs - Constraints on type parameters (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)
 {{< /expand >}}
 
 [События (events) в C#]:----------------------------------------------------------
@@ -224,7 +247,18 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - События](https://metanit.com/sharp/tutorial/3.14.php)
+- [Metanit - События](https://metanit.com/sharp/tutorial/3.14.php)
+- [Microsoft Docs - Introduction to events](https://docs.microsoft.com/en-us/dotnet/csharp/events-overview)
+- [Microsoft Docs - Events (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/)
+- [Microsoft Docs - How to subscribe to and unsubscribe from events (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events)
+- [Microsoft Docs - How to publish events that conform to .NET Guidelines (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-publish-events-that-conform-to-net-framework-guidelines)
+- [Microsoft Docs - How to raise base class events in derived classes (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-raise-base-class-events-in-derived-classes)
+- [Microsoft Docs - How to implement interface events (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-implement-interface-events)
+- [Microsoft Docs - How to implement custom event accessors (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-implement-custom-event-accessors)
+- [Microsoft Docs - Standard .NET event patterns](https://docs.microsoft.com/en-us/dotnet/csharp/event-pattern)
+- [Microsoft Docs - The Updated .NET Core Event Pattern](https://docs.microsoft.com/en-us/dotnet/csharp/modern-events)
+- [Microsoft Docs - Distinguishing Delegates and Events](https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events)
 {{< /expand >}}
 
 [Потоки (threads) в C#]:----------------------------------------------------------
@@ -236,7 +270,19 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Введение в многопоточность. Класс Thread](https://metanit.com/sharp/tutorial/11.1.php)
+- [Metanit - Создание потоков. Делегат ThreadStart](https://metanit.com/sharp/tutorial/11.2.php)
+- [Metanit - Потоки с параметрами и ParameterizedThreadStart](https://metanit.com/sharp/tutorial/11.3.php)
+- [Metanit - Синхронизация потоков](https://metanit.com/sharp/tutorial/11.4.php)
+- [Metanit - Мониторы](https://metanit.com/sharp/tutorial/11.5.php)
+- [Metanit - Класс AutoResetEvent](https://metanit.com/sharp/tutorial/11.6.php)
+- [Metanit - Мьютексы](https://metanit.com/sharp/tutorial/11.7.php)
+- [Metanit - Семафоры](https://metanit.com/sharp/tutorial/11.8.php)
+- [Microsoft Docs - Thread Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread?view=net-6.0)
+- [Microsoft Docs - ThreadStart Delegate](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadstart?view=net-6.0)
+- [Microsoft Docs - ParameterizedThreadStart Delegate](https://docs.microsoft.com/en-us/dotnet/api/system.threading.parameterizedthreadstart?view=net-6.0)
+- [Microsoft Docs - lock statement (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
+- [Microsoft Docs - Monitor Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0)
 {{< /expand >}}
 
 [Коллекции в C#]:----------------------------------------------------------
