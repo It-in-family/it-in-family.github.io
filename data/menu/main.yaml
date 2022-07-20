@@ -10,7 +10,7 @@ main:
       - name: P01 - C# 8 Starter
         ref: "/u02-csharp/p01-csharp-8-starter"
         sub:
-        - name: Additional info
+        - name: Lessons
           ref: "/u02-csharp/p01-csharp-8-starter/additional-info" 
         - name: Questions for Interview
           ref: "/u02-csharp/p01-csharp-8-starter/questions-for-interview"
