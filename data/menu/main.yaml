@@ -9,10 +9,10 @@ main:
     sub:
       - name: Theory
         ref: "/u01-git/theory"
-      - name: Practice
-        ref: "/u01-git/practice"
       - name: Questions for Interview
         ref: "/u01-git/self-control"
+      - name: Practice
+        ref: "/u01-git/practice"
   - name: U02 - C#
     ref: "/u02-csharp"
     icon: "gdoc_tag"
@@ -31,6 +31,20 @@ main:
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice" 
           - name: Additional tasks
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional"
+      - name: P04 - C# 8 For Professional
+        ref: "/u02-csharp/p04-csharp-for-professional"
+        sub:
+        - name: Theory
+          ref: "/u02-csharp/p04-csharp-for-professional/theory"
+        - name: Questions for Interview
+          ref: "/u02-csharp/p04-csharp-for-professional/questions-for-interview"
+        - name: Practice
+          ref: "/u02-csharp/p04-csharp-for-professional/practice/"
+          sub:
+          - name: Codewars
+            ref: "/u02-csharp/p04-csharp-for-professional/practice/tasks-codewars-code-practice"
+          - name: Additional tasks
+            ref: "/u02-csharp/p04-csharp-for-professional/practice/tasks-additional"
   - name: U03 - Databases
     ref: "/u03-databases"
     icon: "gdoc_tag"
