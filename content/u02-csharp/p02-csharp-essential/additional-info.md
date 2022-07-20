@@ -294,7 +294,17 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Список List<T>](https://metanit.com/sharp/tutorial/4.5.php)
+- [Metanit - Коллекция Dictionary<K, V>](https://metanit.com/sharp/tutorial/4.9.php)
+- [Metanit - Интерфейсы IEnumerable и IEnumerator](https://metanit.com/sharp/tutorial/4.11.php)
+- [Metanit - Итераторы и оператор yield](https://metanit.com/sharp/tutorial/4.12.php)
+- [Microsoft Docs - IEnumerable Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0)
+- [Microsoft Docs - IEnumerator Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-6.0)
+- [Microsoft Docs - IEnumerable<T> Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0)
+- [Microsoft Docs - IEnumerator<T> Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?view=net-6.0)
+- [Microsoft Docs - Iteration statements (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
+- [Microsoft Docs - Using foreach with arrays (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/using-foreach-with-arrays)
+- [Microsoft Docs - yield (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield)
 {{< /expand >}}
 
 [Обработка исключений (exception)]:----------------------------------------------------------
@@ -306,7 +316,21 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Конструкция try..catch..finally](https://metanit.com/sharp/tutorial/2.14.php)
+- [Metanit - Блок catch и фильтры исключений](https://metanit.com/sharp/tutorial/2.28.php)
+- [Metanit - Типы исключений. Класс Exception](https://metanit.com/sharp/tutorial/2.29.php)
+- [Metanit - Генерация исключения и оператор throw](https://metanit.com/sharp/tutorial/2.31.php)
+- [Metanit - Создание классов исключений](https://metanit.com/sharp/tutorial/3.17.php)
+- [Metanit - Поиск блока catch при обработке исключений](https://metanit.com/sharp/tutorial/2.30.php)
+- [Microsoft Docs - Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/)
+- [Microsoft Docs - Use exceptions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/using-exceptions)
+- [Microsoft Docs - Exception Handling (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/exception-handling)
+- [Microsoft Docs - Creating and Throwing Exceptions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions)
+- [Microsoft Docs - Compiler-generated exceptions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/compiler-generated-exceptions)
+- [Microsoft Docs - throw (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw)
+- [Microsoft Docs - try-catch (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch)
+- [Microsoft Docs - try-finally (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-finally)
+- [Microsoft Docs - try-catch-finally (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch-finally)
 {{< /expand >}}
 
 [Перегрузка операторов в C#]:----------------------------------------------------------
@@ -318,7 +342,14 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Класс System.Object и его методы](https://metanit.com/sharp/tutorial/3.10.php)
+- [Metanit - Определение операторов](https://metanit.com/sharp/tutorial/3.36.php)
+- [Metanit - Перегрузка операций преобразования типов](https://metanit.com/sharp/tutorial/3.37.php)
+- [Microsoft Docs - Object Class](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-6.0)
+- [Microsoft Docs - Operator overloading (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading)
+- [Microsoft Docs - User-defined conversion operators (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators)
+- [Microsoft Docs - Object.MemberwiseClone Method](https://docs.microsoft.com/en-us/dotnet/api/system.object.memberwiseclone?view=net-6.0)
+- [Microsoft Docs - ICloneable Interface](https://docs.microsoft.com/en-us/dotnet/api/system.icloneable?view=net-6.0)
 {{< /expand >}}
 
 [Анонимные и динамические типы. LINQ.]:----------------------------------------------------------
@@ -330,7 +361,42 @@
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Анонимные типы](https://metanit.com/sharp/tutorial/3.20.php)
+- [Metanit - Основы LINQ](https://metanit.com/sharp/tutorial/15.1.php)
+- [Metanit - Проекция данных](https://metanit.com/sharp/tutorial/13.6.php)
+- [Metanit - Фильтрация коллекции](https://metanit.com/sharp/tutorial/15.2.php)
+- [Metanit - Сортировка](https://metanit.com/sharp/tutorial/15.3.php)
+- [Metanit - Объединение, пересечение и разность коллекций](https://metanit.com/sharp/tutorial/15.4.php)
+- [Metanit - Агрегатные операции](https://metanit.com/sharp/tutorial/15.5.php)
+- [Metanit - Методы Skip и Take](https://metanit.com/sharp/tutorial/15.11.php)
+- [Metanit - Группировка](https://metanit.com/sharp/tutorial/15.6.php)
+- [Metanit - Соединение коллекций](https://metanit.com/sharp/tutorial/15.7.php)
+- [Metanit - Проверка наличия и получение элементов](https://metanit.com/sharp/tutorial/15.10.php)
+- [Metanit - Отложенное и немедленное выполнение LINQ](https://metanit.com/sharp/tutorial/15.8.php)
+- [Metanit - Делегаты в запросах LINQ](https://metanit.com/sharp/tutorial/15.9.php)
+- [Metanit - DLR в C#. Ключевое слово dynamic](https://metanit.com/sharp/tutorial/9.1.php)
+- [Microsoft Docs - Anonymous types](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types)
+- [Microsoft Docs - Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/linq/)
+- [Microsoft Docs - Query expression basics](https://docs.microsoft.com/en-us/dotnet/csharp/linq/query-expression-basics)
+- [Microsoft Docs - LINQ in C#](https://docs.microsoft.com/en-us/dotnet/csharp/linq/linq-in-csharp)
+- [Microsoft Docs - Write LINQ queries in C#](https://docs.microsoft.com/en-us/dotnet/csharp/linq/write-linq-queries)
+- [Microsoft Docs - Query a collection of objects](https://docs.microsoft.com/en-us/dotnet/csharp/linq/query-a-collection-of-objects)
+- [Microsoft Docs - How to return a query from a method](https://docs.microsoft.com/en-us/dotnet/csharp/linq/return-a-query-from-a-method)
+- [Microsoft Docs - Store the results of a query in memory](https://docs.microsoft.com/en-us/dotnet/csharp/linq/store-the-results-of-a-query-in-memory)
+- [Microsoft Docs - Group query results](https://docs.microsoft.com/en-us/dotnet/csharp/linq/group-query-results)
+- [Microsoft Docs - Create a nested group](https://docs.microsoft.com/en-us/dotnet/csharp/linq/create-a-nested-group)
+- [Microsoft Docs - Perform a subquery on a grouping operation](https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-a-subquery-on-a-grouping-operation)
+- [Microsoft Docs - Group results by contiguous keys](https://docs.microsoft.com/en-us/dotnet/csharp/linq/group-results-by-contiguous-keys)
+- [Microsoft Docs - Dynamically specify predicate filters at run time](https://docs.microsoft.com/en-us/dotnet/csharp/linq/dynamically-specify-predicate-filters-at-runtime)
+- [Microsoft Docs - Perform inner joins](https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-inner-joins)
+- [Microsoft Docs - Perform grouped joins](https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-grouped-joins)
+- [Microsoft Docs - Perform left outer joins](https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-left-outer-joins)
+- [Microsoft Docs - Order the results of a join clause](https://docs.microsoft.com/en-us/dotnet/csharp/linq/order-the-results-of-a-join-clause)
+- [Microsoft Docs - Join by using composite keys](https://docs.microsoft.com/en-us/dotnet/csharp/linq/join-by-using-composite-keys)
+- [Microsoft Docs - Perform custom join operations](https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-custom-join-operations)
+- [Microsoft Docs - Handle null values in query expressions](https://docs.microsoft.com/en-us/dotnet/csharp/linq/handle-null-values-in-query-expressions)
+- [Microsoft Docs - Handle exceptions in query expressions](https://docs.microsoft.com/en-us/dotnet/csharp/linq/handle-exceptions-in-query-expressions)
+- [Microsoft Docs - Using type dynamic (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic)
 {{< /expand >}}
 
 [Пространства имен. Директивы препроцессора в C#]:----------------------------------------------------------
