@@ -1,3 +1,3 @@
 # C# Базовый (ООП)
 
-[ITVDN](https://itvdn.com/ru/video/csharp-essential)
+[Основной курс по C# Базовый (ООП) на ITVDN](https://itvdn.com/ru/video/csharp-essential)
