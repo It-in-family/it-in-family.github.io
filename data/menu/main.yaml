@@ -32,19 +32,19 @@ main:
           - name: Additional tasks
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional"
       - name: P02 - C# Essential (OOP)
-          ref: "/u02-csharp/p02-csharp-essential"
+        ref: "/u02-csharp/p02-csharp-essential"
+        sub:
+        - name: Theory
+          ref: "/u02-csharp/p02-csharp-essential/theory" 
+        - name: Questions for Interview
+          ref: "/u02-csharp/p02-csharp-essential/questions-for-interview"
+        - name: Practice  
+          ref: "/u02-csharp/p02-csharp-essential/additional-practice" 
           sub:
-          - name: Theory
-            ref: "/u02-csharp/p02-csharp-essential/theory" 
-          - name: Questions for Interview
-            ref: "/u02-csharp/p02-csharp-essential/questions-for-interview"
-          - name: Practice  
-            ref: "/u02-csharp/p02-csharp-essential/additional-practice" 
-            sub:
-            - name: Codewars
-              ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-codewars-code-practice" 
-            - name: Additional tasks
-              ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-additional"
+          - name: Codewars
+            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-codewars-code-practice" 
+          - name: Additional tasks
+            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-additional"
       - name: P04 - C# 8 For Professional
         ref: "/u02-csharp/p04-csharp-for-professional"
         sub:
