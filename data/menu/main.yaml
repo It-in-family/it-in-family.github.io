@@ -34,8 +34,8 @@ main:
       - name: P02 - C# Essential (OOP)
         ref: "/u02-csharp/p02-csharp-essential"
         sub:
-        - name: Additional info
-          ref: "/u02-csharp/p02-csharp-essential/additional-info" 
+        - name: Theory
+          ref: "/u02-csharp/p02-csharp-essential/theory" 
         - name: Questions for Interview
           ref: "/u02-csharp/p02-csharp-essential/questions-for-interview"
         - name: Practice  
