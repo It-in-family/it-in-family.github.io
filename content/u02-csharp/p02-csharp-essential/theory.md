@@ -1,11 +1,11 @@
-# Дополнительная информация
+# Теория
 
-[Введение в ООП, классы и объекты]:----------------------------------------------------------
+[№1. Введение в ООП, классы и объекты]:----------------------------------------------------------
 
-{{< expand "Введение в ООП, классы и объекты" "..." >}}
-### Тезисы
+{{< expand "№1. Введение в ООП, классы и объекты" "..." >}}
+### Основные материалы
 
-[Введение в ООП, классы и объекты](https://itvdn.com/ru/video/csharp-essential)
+[Урок №1. Введение в ООП, классы и объекты](https://itvdn.com/ru/video/csharp-essential)
 
 ### Дополнительные материалы
 
@@ -28,12 +28,12 @@
 - [Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-implement-a-lightweight-class-with-auto-implemented-properties)
 {{< /expand >}}
 
-[Классы и объекты. Диаграммы классов.]:----------------------------------------------------------
+[№2. Классы и объекты. Диаграммы классов.]:----------------------------------------------------------
 
-{{< expand "Классы и объекты. Диаграммы классов." "..." >}}
-### Тезисы
+{{< expand "№2. Классы и объекты. Диаграммы классов." "..." >}}
+### Основные материалы
 
-[Классы и объекты. Диаграммы классов.](https://itvdn.com/ru/video/csharp-essential/clases-and-class-diagrams)
+[Урок №2. Классы и объекты. Диаграммы классов.](https://itvdn.com/ru/video/csharp-essential/clases-and-class-diagrams)
 
 ### Дополнительные материалы
 
@@ -44,12 +44,12 @@
 - [Microsoft Docs - Constants (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants)
 {{< /expand >}}
 
-[Наследование и полиморфизм в C#]:----------------------------------------------------------
+[№3. Наследование и полиморфизм в C#]:----------------------------------------------------------
 
-{{< expand "Наследование и полиморфизм в C#" "..." >}}
-### Тезисы
+{{< expand "№3. Наследование и полиморфизм в C#" "..." >}}
+### Основные материалы
 
-[Наследование и полиморфизм в C#](https://itvdn.com/ru/video/csharp-essential/inheritance)
+[Урок №3. Наследование и полиморфизм в C#](https://itvdn.com/ru/video/csharp-essential/inheritance)
 
 ### Дополнительные материалы
 
@@ -68,12 +68,12 @@
 - [Microsoft Docs - Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop)
 {{< /expand >}}
 
-[Абстракция. Абстрактные классы и интерфейсы]:----------------------------------------------------------
+[№4. Абстракция. Абстрактные классы и интерфейсы]:----------------------------------------------------------
 
-{{< expand "Абстракция. Абстрактные классы и интерфейсы" "..." >}}
-### Тезисы
+{{< expand "№4. Абстракция. Абстрактные классы и интерфейсы" "..." >}}
+### Основные материалы
 
-[Абстракция. Абстрактные классы и интерфейсы](https://itvdn.com/ru/video/csharp-essential/abstraction)
+[Урок №4. Абстракция. Абстрактные классы и интерфейсы](https://itvdn.com/ru/video/csharp-essential/abstraction)
 
 ### Дополнительные материалы
 
@@ -92,12 +92,12 @@
 - [Microsoft Docs - How to explicitly implement members of two interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/how-to-explicitly-implement-members-of-two-interfaces)
 {{< /expand >}}
 
-[Массивы и индексаторы]:----------------------------------------------------------
+[№5. Массивы и индексаторы]:----------------------------------------------------------
 
-{{< expand "Массивы и индексаторы" "..." >}}
-### Тезисы
+{{< expand "№5. Массивы и индексаторы" "..." >}}
+### Основные материалы
 
-[Массивы и индексаторы](https://itvdn.com/ru/video/csharp-essential/arrays-and-indexers)
+[Урок №5. Массивы и индексаторы](https://itvdn.com/ru/video/csharp-essential/arrays-and-indexers)
 
 ### Дополнительные материалы
 
@@ -118,12 +118,12 @@
 - [Microsoft Docs - Comparison Between Properties and Indexers (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/comparison-between-properties-and-indexers)
 {{< /expand >}}
 
-[Статические и вложенные классы]:----------------------------------------------------------
+[№6. Статические и вложенные классы]:----------------------------------------------------------
 
-{{< expand "Статические и вложенные классы" "..." >}}
-### Тезисы
+{{< expand "№6. Статические и вложенные классы" "..." >}}
+### Основные материалы
 
-[Статические и вложенные классы](https://itvdn.com/ru/video/csharp-essential/nested-classes)
+[Урок №6. Статические и вложенные классы](https://itvdn.com/ru/video/csharp-essential/nested-classes)
 
 ### Дополнительные материалы
 
@@ -136,12 +136,12 @@
 - [Microsoft Docs - Nested Types (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/nested-types)
 {{< /expand >}}
 
-[Структуры и их разновидности]:----------------------------------------------------------
+[№7. Структуры и их разновидности]:----------------------------------------------------------
 
-{{< expand "Структуры и их разновидности" "..." >}}
-### Тезисы
+{{< expand "№7. Структуры и их разновидности" "..." >}}
+### Основные материалы
 
-[Структуры и их разновидности](https://itvdn.com/ru/video/csharp-essential/structs)
+[Урок №7. Структуры и их разновидности](https://itvdn.com/ru/video/csharp-essential/structs)
 
 ### Дополнительные материалы
 
@@ -151,12 +151,12 @@
 - [Microsoft Docs - How to know the difference between passing a struct and passing a class reference to a method (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-know-the-difference-passing-a-struct-and-passing-a-class-to-a-method)
 {{< /expand >}}
 
-[Перечисления (enum)]:----------------------------------------------------------
+[№8. Перечисления (enum)]:----------------------------------------------------------
 
-{{< expand "Перечисления (enum)" "..." >}}
-### Тезисы
+{{< expand "№8. Перечисления (enum)" "..." >}}
+### Основные материалы
 
-[Перечисления (enum)](https://itvdn.com/ru/video/csharp-essential/enums)
+[Урок №8. Перечисления (enum)](https://itvdn.com/ru/video/csharp-essential/enums)
 
 ### Дополнительные материалы
 
@@ -168,12 +168,12 @@
 - [Microsoft Docs - Boxing and Unboxing (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
 {{< /expand >}}
 
-[Делегаты]:----------------------------------------------------------
+[№9. Делегаты]:----------------------------------------------------------
 
-{{< expand "Делегаты" "..." >}}
-### Тезисы
+{{< expand "№9. Делегаты" "..." >}}
+### Основные материалы
 
-[Делегаты](https://itvdn.com/ru/video/csharp-essential/delegates)
+[Урок №9. Делегаты](https://itvdn.com/ru/video/csharp-essential/delegates)
 
 ### Дополнительные материалы
 
@@ -192,12 +192,12 @@
 - [Microsoft Docs - How to declare, instantiate, and use a Delegate (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/how-to-declare-instantiate-and-use-a-delegate)
 {{< /expand >}}
 
-[Универсальные шаблоны (generics) в C#]:----------------------------------------------------------
+[№10. Универсальные шаблоны (generics) в C#]:----------------------------------------------------------
 
-{{< expand "Универсальные шаблоны (generics) в C#" "..." >}}
-### Тезисы
+{{< expand "№10. Универсальные шаблоны (generics) в C#" "..." >}}
+### Основные материалы
 
-[Универсальные шаблоны (generics) в C#](https://itvdn.com/ru/video/csharp-essential/generics)
+[Урок №10. Универсальные шаблоны (generics) в C#](https://itvdn.com/ru/video/csharp-essential/generics)
 
 ### Дополнительные материалы
 
@@ -225,12 +225,12 @@
 - [Microsoft Docs - Generic type parameters (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-type-parameters)
 {{< /expand >}}
 
-[Ограничения универсальных шаблонов в C#]:----------------------------------------------------------
+[№11. Ограничения универсальных шаблонов в C#]:----------------------------------------------------------
 
-{{< expand "Ограничения универсальных шаблонов в C#" "..." >}}
-### Тезисы
+{{< expand "№11. Ограничения универсальных шаблонов в C#" "..." >}}
+### Основные материалы
 
-[Ограничения универсальных шаблонов в C#](https://itvdn.com/ru/video/csharp-essential/generics-constraints)
+[Урок №11. Ограничения универсальных шаблонов в C#](https://itvdn.com/ru/video/csharp-essential/generics-constraints)
 
 ### Дополнительные материалы
 
@@ -238,12 +238,12 @@
 - [Microsoft Docs - Constraints on type parameters (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)
 {{< /expand >}}
 
-[События (events) в C#]:----------------------------------------------------------
+[№12. События (events) в C#]:----------------------------------------------------------
 
-{{< expand "События (events) в C#" "..." >}}
-### Тезисы
+{{< expand "№12. События (events) в C#" "..." >}}
+### Основные материалы
 
-[События (events) в C#](https://itvdn.com/ru/video/csharp-essential/events)
+[Урок №12. События (events) в C#](https://itvdn.com/ru/video/csharp-essential/events)
 
 ### Дополнительные материалы
 
@@ -261,12 +261,12 @@
 - [Microsoft Docs - Distinguishing Delegates and Events](https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events)
 {{< /expand >}}
 
-[Потоки (threads) в C#]:----------------------------------------------------------
+[№13. Потоки (threads) в C#]:----------------------------------------------------------
 
-{{< expand "Потоки (threads) в C#" "..." >}}
-### Тезисы
+{{< expand "№13. Потоки (threads) в C#" "..." >}}
+### Основные материалы
 
-[Потоки (threads) в C#](https://itvdn.com/ru/video/csharp-essential/threads)
+[Урок №13. Потоки (threads) в C#](https://itvdn.com/ru/video/csharp-essential/threads)
 
 ### Дополнительные материалы
 
@@ -285,12 +285,12 @@
 - [Microsoft Docs - Monitor Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0)
 {{< /expand >}}
 
-[Коллекции в C#]:----------------------------------------------------------
+[№14. Коллекции в C#]:----------------------------------------------------------
 
-{{< expand "Коллекции в C#" "..." >}}
-### Тезисы
+{{< expand "№14. Коллекции в C#" "..." >}}
+### Основные материалы
 
-[Коллекции в C#](https://itvdn.com/ru/video/csharp-essential/collections)
+[Урок №14. Коллекции в C#](https://itvdn.com/ru/video/csharp-essential/collections)
 
 ### Дополнительные материалы
 
@@ -307,12 +307,12 @@
 - [Microsoft Docs - yield (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield)
 {{< /expand >}}
 
-[Обработка исключений (exception)]:----------------------------------------------------------
+[№15. Обработка исключений (exception)]:----------------------------------------------------------
 
-{{< expand "Обработка исключений (exception)" "..." >}}
-### Тезисы
+{{< expand "№15. Обработка исключений (exception)" "..." >}}
+### Основные материалы
 
-[Обработка исключений (exception)](https://itvdn.com/ru/video/csharp-essential/exception-handling)
+[Урок №15. Обработка исключений (exception)](https://itvdn.com/ru/video/csharp-essential/exception-handling)
 
 ### Дополнительные материалы
 
@@ -333,12 +333,12 @@
 - [Microsoft Docs - try-catch-finally (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch-finally)
 {{< /expand >}}
 
-[Перегрузка операторов в C#]:----------------------------------------------------------
+[№16. Перегрузка операторов в C#]:----------------------------------------------------------
 
-{{< expand "Перегрузка операторов в C#" "..." >}}
-### Тезисы
+{{< expand "№16. Перегрузка операторов в C#" "..." >}}
+### Основные материалы
 
-[Перегрузка операторов в C#](https://itvdn.com/ru/video/csharp-essential/operators)
+[Урок №16. Перегрузка операторов в C#](https://itvdn.com/ru/video/csharp-essential/operators)
 
 ### Дополнительные материалы
 
@@ -352,12 +352,12 @@
 - [Microsoft Docs - ICloneable Interface](https://docs.microsoft.com/en-us/dotnet/api/system.icloneable?view=net-6.0)
 {{< /expand >}}
 
-[Анонимные и динамические типы. LINQ.]:----------------------------------------------------------
+[№17. Анонимные и динамические типы. LINQ.]:----------------------------------------------------------
 
-{{< expand "Анонимные и динамические типы. LINQ." "..." >}}
-### Тезисы
+{{< expand "№17. Анонимные и динамические типы. LINQ." "..." >}}
+### Основные материалы
 
-[Анонимные и динамические типы. LINQ.](https://itvdn.com/ru/video/csharp-essential/anonymous-types)
+[Урок №17. Анонимные и динамические типы. LINQ.](https://itvdn.com/ru/video/csharp-essential/anonymous-types)
 
 ### Дополнительные материалы
 
@@ -399,18 +399,18 @@
 - [Microsoft Docs - Using type dynamic (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic)
 {{< /expand >}}
 
-[Пространства имен. Директивы препроцессора в C#]:----------------------------------------------------------
+[№18. Пространства имен. Директивы препроцессора в C#]:----------------------------------------------------------
 
-{{< expand "Пространства имен. Директивы препроцессора в C#" "..." >}}
-### Тезисы
+{{< expand "№18. ространства имен. Директивы препроцессора в C#" "..." >}}
+### Основные материалы
 
-[Пространства имен. Директивы препроцессора в C#](https://itvdn.com/ru/video/csharp-essential/namespaces)
+[Урок №18. Пространства имен. Директивы препроцессора в C#](https://itvdn.com/ru/video/csharp-essential/namespaces)
 
 ### Дополнительные материалы
 
-- [Metanit - Структура программы](https://metanit.com/sharp/tutorial/1.5.php)
+- [Metanit - Создание библиотеки классов](https://metanit.com/sharp/tutorial/3.46.php)
+- [Metanit - Пространства имен](https://metanit.com/sharp/tutorial/3.25.php)
+- [Microsoft Docs - namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
+- [Microsoft Docs - Declare namespaces to organize types](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces)
+- [Microsoft Docs - C# preprocessor directives](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives)
 {{< /expand >}}
-
-1. metanit
-2. professor web
-3. msdn
