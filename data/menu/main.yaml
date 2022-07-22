@@ -21,6 +21,23 @@ main:
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice" 
           - name: Additional tasks
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional"
+
+      - name: P02- C# Universal patterns
+        ref: "/u02-csharp/p02-charrp-univer-patterns"
+        sub:
+        - name: Lessons
+          ref: "/u02-csharp/p02-charrp-univer-patterns/additional-info" 
+        - name: Questions for Interview
+          ref: "/u02-csharp/p02-charrp-univer-patterns/questions-for-interview"
+
+      - name: P03 - OOP Paterns
+        ref: "/u02-csharp/p03-charrp-patterns"
+        sub:
+        - name: Lessons
+          ref: "/u02-csharp/p03-charrp-patterns/additional-info" 
+        - name: Questions for Interview
+          ref: "/u02-csharp/p03-charrp-patterns/questions-for-interview"
+
   - name: U03 - Databases
     ref: "/u03-databases"
     icon: "gdoc_tag"
