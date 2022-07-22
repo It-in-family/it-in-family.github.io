@@ -6,7 +6,6 @@
 ### Основные материалы
 
 - [Урок №1. Введение](https://itvdn.com/ru/video/git-basics)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-01?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -20,7 +19,6 @@
 ### Основные материалы
 
 - [Урок №2. Создание репозитория](https://itvdn.com/ru/video/git-basics/repository-git)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-02?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -34,7 +32,6 @@
 ### Основные материалы
 
 - [Урок №3. Работа с файлами](https://itvdn.com/ru/video/git-basics/files-git)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-03?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -50,7 +47,6 @@
 ### Основные материалы
 
 - [Урок №4. Откат изменений](https://itvdn.com/ru/video/git-basics/rollback)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-04?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -63,7 +59,6 @@
 ### Основные материалы
 
 - [Урок №5. Работа с удаленным репозиторием](https://itvdn.com/ru/video/git-basics/remote-repository-git)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-05?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -76,7 +71,6 @@
 ### Основные материалы
 
 - [Урок №6. Ветвления и слияния](https://itvdn.com/ru/video/git-basics/branching-and-merging)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/git_basic-06?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 

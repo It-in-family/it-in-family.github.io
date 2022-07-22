@@ -34,7 +34,7 @@ main:
       - name: P04 - C# 8 For Professional
         ref: "/u02-csharp/p04-csharp-for-professional"
         sub:
-        - name: Theory
+        - name: p01-databases-transact-sql
           ref: "/u02-csharp/p04-csharp-for-professional/theory"
         - name: Questions for Interview
           ref: "/u02-csharp/p04-csharp-for-professional/questions-for-interview"
@@ -48,3 +48,18 @@ main:
   - name: U03 - Databases
     ref: "/u03-databases"
     icon: "gdoc_tag"
+    sub:
+    - name: P01 - Transact-SQL
+      ref: "/u03-databases/p01-databases-transact-sql"
+      sub:
+      - name: Theory
+        ref: "/u03-databases/p01-databases-transact-sql/theory"
+      - name: Questions for Interview
+        ref: "/u03-databases/p01-databases-transact-sql/questions-for-interview"
+      - name: Practice
+        ref: "/u03-databases/p01-databases-transact-sql/practice"
+        sub:
+        - name: Codewars
+          ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-codewars-code-practice"
+        - name: Additional tasks
+          ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-additional"
