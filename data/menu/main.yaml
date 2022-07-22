@@ -39,7 +39,6 @@ main:
         - name: Questions for Interview
           ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/questions-for-interview"
         - name: Practice
-          ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/"
           sub:
           - name: Codewars
             ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-codewars-code-practice"
@@ -53,7 +52,6 @@ main:
         - name: Questions for Interview
           ref: "/u02-csharp/p04-csharp-for-professional/questions-for-interview"
         - name: Practice
-          ref: "/u02-csharp/p04-csharp-for-professional/practice/"
           sub:
           - name: Codewars
             ref: "/u02-csharp/p04-csharp-for-professional/practice/tasks-codewars-code-practice"
@@ -62,3 +60,17 @@ main:
   - name: U03 - Databases
     ref: "/u03-databases"
     icon: "gdoc_tag"
+    sub:
+    - name: P01 - Transact-SQL
+      ref: "/u03-databases/p01-databases-transact-sql"
+      sub:
+      - name: Theory
+        ref: "/u03-databases/p01-databases-transact-sql/theory"
+      - name: Questions for Interview
+        ref: "/u03-databases/p01-databases-transact-sql/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Codewars
+          ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-codewars-code-practice"
+        - name: Additional tasks
+          ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-additional"
