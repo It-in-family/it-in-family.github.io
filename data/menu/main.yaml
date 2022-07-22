@@ -31,6 +31,20 @@ main:
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice" 
           - name: Additional tasks
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional"
+      - name: P03 - C# 8 Algorithms
+        ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures"
+        sub:
+        - name: Theory
+          ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/theory"
+        - name: Questions for Interview
+          ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/questions-for-interview"
+        - name: Practice
+          ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/"
+          sub:
+          - name: Codewars
+            ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-codewars-code-practice"
+          - name: Additional tasks
+            ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-additional"
       - name: P04 - C# 8 For Professional
         ref: "/u02-csharp/p04-csharp-for-professional"
         sub:
