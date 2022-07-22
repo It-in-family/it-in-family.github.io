@@ -7,7 +7,6 @@
 ### Основные материалы
 
 - [Урок №1. Введение в структуры и алгоритмы данных. Связные списки.](https://itvdn.com/ru/video/algorithms-and-data-structures-renewed)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/algorithms-and-data-structures-renewed-intro?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -26,7 +25,6 @@
 ### Основные материалы
 
 - [Урок №2. Динамический массив, Stack, Queue и Set](https://itvdn.com/ru/video/algorithms-and-data-structures-renewed/dynamic-array-stack-queue-set)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/algorithms-and-data-structures-renewed-dynamic-arrays?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -46,7 +44,6 @@
 ### Основные материалы
 
 - [Урок №3. Алгоритмы сортировки](https://itvdn.com/ru/video/algorithms-and-data-structures-renewed/algoritmes-sorting)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/algorithms-and-data-structures-renewed-sorting-algorithms?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -60,7 +57,6 @@
 ### Основные материалы
 
 - [Урок №4. Хеш-таблицы. Деревья](https://itvdn.com/ru/video/algorithms-and-data-structures-renewed/algoritmes-sorting)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/algorithms-and-data-structures-renewed-hash-table?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 

@@ -7,7 +7,6 @@
 ### Основные материалы
 
 - [Урок №1. Пользовательские коллекции](https://itvdn.com/ru/video/csharp-for-professional-renewed)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-user-collections?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -29,7 +28,6 @@
 ### Основные материалы
 
 - [Урок №2. Системные коллекции](https://itvdn.com/ru/video/csharp-for-professional-renewed/system-collections)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-system-collections?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -51,7 +49,6 @@
 ### Основные материалы
 
 - [Урок №3. Программирование ввода-вывода C#](https://itvdn.com/ru/video/csharp-for-professional-renewed/input-output)
-- [Тестирование знаний](data-link="https://testprovider.com/ru/category-examination/csharp-professional-renewed-input-output-programming?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -74,7 +71,6 @@
 ### Основные материалы
 
 - [Урок №4. Работа с текстом. Регулярные выражения](https://itvdn.com/ru/video/csharp-for-professional-renewed/work-with-text)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-working-with-text?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -96,7 +92,6 @@
 ### Основные материалы
 
 - [Урок №5. XML. Файлы конфигурации. Реестр](https://itvdn.com/ru/video/csharp-for-professional-renewed/xml-and-configuration)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-xml-configuration-registry?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -117,7 +112,6 @@
 ### Основные материалы
 
 - [Урок №6. Рефлексия](https://itvdn.com/ru/video/csharp-for-professional-renewed/reflections)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-reflection?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -137,7 +131,6 @@
 ### Основные материалы
 
 - [Урок №7. Атрибуты](https://itvdn.com/ru/video/csharp-for-professional-renewed/attributes)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-attributes?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -154,7 +147,6 @@
 ### Основные материалы
 
 - [Урок №8. Сериализация](https://itvdn.com/ru/video/csharp-for-professional-renewed/serialization)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-serialization?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -177,7 +169,6 @@
 ### Основные материалы
 
 - [Урок №9. Управление памятью. Сборщик мусора](https://itvdn.com/ru/video/csharp-for-professional-renewed/garbage-collector)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-serialization?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -196,7 +187,6 @@
 ### Основные материалы
 
 - [Урок №10. Полиморфизм. Версионность](https://itvdn.com/ru/video/csharp-for-professional-renewed/versioning)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-versioning?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -211,7 +201,6 @@
 ### Основные материалы
 
 - [Урок №11. Потоки](https://itvdn.com/ru/video/csharp-for-professional-renewed/threads)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-threads?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -234,7 +223,6 @@
 ### Основные материалы
 
 - [Урок №12. Синхронизация при помощи объектов ядра и конструкций пользовательского режима](https://itvdn.com/ru/video/csharp-for-professional-renewed/threads-part-2)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-kernel-sync?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -248,7 +236,6 @@
 ### Основные материалы
 
 - [Урок №13. Асинхронная модель программирования](https://itvdn.com/ru/video/csharp-for-professional-renewed/async-model)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-asynchronous-model?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -268,7 +255,6 @@
 ### Основные материалы
 
 - [Урок №14. Параллельное программирование](https://itvdn.com/ru/video/csharp-for-professional-renewed/tpl)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-tpl?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -292,7 +278,6 @@
 ### Основные материалы
 
 - [Урок №15. Async Await](https://itvdn.com/ru/video/csharp-for-professional-renewed/async-await)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-async-await?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
@@ -314,7 +299,6 @@
 ### Основные материалы
 
 - [Урок №16. Домены приложений. NT-службы](https://itvdn.com/ru/video/csharp-for-professional-renewed/application-domains)
-- [Тестирование знаний](https://testprovider.com/ru/category-examination/csharp-professional-renewed-domains-and-nt-services?userId=f77377e8-649d-40e0-adc2-7a9c26d4543f)
 
 ### Дополнительные материалы
 
