@@ -39,7 +39,6 @@ main:
         - name: Questions for Interview
           ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/questions-for-interview"
         - name: Practice
-          ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/"
           sub:
           - name: Codewars
             ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-codewars-code-practice"
@@ -48,12 +47,11 @@ main:
       - name: P04 - C# 8 For Professional
         ref: "/u02-csharp/p04-csharp-for-professional"
         sub:
-        - name: p01-databases-transact-sql
+        - name: Theory
           ref: "/u02-csharp/p04-csharp-for-professional/theory"
         - name: Questions for Interview
           ref: "/u02-csharp/p04-csharp-for-professional/questions-for-interview"
         - name: Practice
-          ref: "/u02-csharp/p04-csharp-for-professional/practice/"
           sub:
           - name: Codewars
             ref: "/u02-csharp/p04-csharp-for-professional/practice/tasks-codewars-code-practice"
@@ -71,7 +69,6 @@ main:
       - name: Questions for Interview
         ref: "/u03-databases/p01-databases-transact-sql/questions-for-interview"
       - name: Practice
-        ref: "/u03-databases/p01-databases-transact-sql/practice"
         sub:
         - name: Codewars
           ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-codewars-code-practice"
