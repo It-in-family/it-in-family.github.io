@@ -1,3 +1,7 @@
+---
+geekdocCollapseSection: true
+---
+
 # C# 8.0 Transact-SQL
 
 [Основной курс по Transact-SQL на ITVDN](https://itvdn.com/ru/video/ssms_tsql)

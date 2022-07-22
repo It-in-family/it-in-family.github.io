@@ -1,3 +1,7 @@
+---
+geekdocCollapseSection: true
+---
+
 # Основы работы с Git
 
 [Основной курс по GIT на ITVDN](https://itvdn.com/ru/video/git-basics)

@@ -1,3 +1,7 @@
+---
+geekdocCollapseSection: true
+---
+
 |Unit Name|Videos Length|Is Required|Details|
 |---|---|---|---|
 |[C# 8.0 Стартовый](p01-csharp-8-starter)|28.8|Required|   |
