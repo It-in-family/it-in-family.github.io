@@ -21,28 +21,28 @@ main:
         ref: "/u02-csharp/p01-csharp-8-starter"
         sub:
         - name: Additional info
-          ref: "/u02-csharp/p01-csharp-8-starter/additional-info" 
+          ref: "/u02-csharp/p01-csharp-8-starter/additional-info"
         - name: Questions for Interview
           ref: "/u02-csharp/p01-csharp-8-starter/questions-for-interview"
-        - name: Practice  
-          ref: "/u02-csharp/p01-csharp-8-starter/additional-practice" 
+        - name: Practice
+          ref: "/u02-csharp/p01-csharp-8-starter/additional-practice"
           sub:
           - name: Codewars
-            ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice" 
+            ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice"
           - name: Additional tasks
             ref: "/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional"
       - name: P02 - C# Essential (OOP)
         ref: "/u02-csharp/p02-csharp-essential"
         sub:
         - name: Theory
-          ref: "/u02-csharp/p02-csharp-essential/theory" 
+          ref: "/u02-csharp/p02-csharp-essential/theory"
         - name: Questions for Interview
           ref: "/u02-csharp/p02-csharp-essential/questions-for-interview"
-        - name: Practice  
-          ref: "/u02-csharp/p02-csharp-essential/additional-practice" 
+        - name: Practice
+          ref: "/u02-csharp/p02-csharp-essential/additional-practice"
           sub:
           - name: Codewars
-            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-codewars-code-practice" 
+            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-codewars-code-practice"
           - name: Additional tasks
             ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-additional"
       - name: P03 - C# 8 Algorithms
