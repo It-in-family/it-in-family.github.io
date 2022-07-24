@@ -39,12 +39,12 @@ main:
         - name: Questions for Interview
           ref: "/u02-csharp/p02-csharp-essential/questions-for-interview"
         - name: Practice
-          ref: "/u02-csharp/p02-csharp-essential/additional-practice"
+          ref: "/u02-csharp/p02-csharp-essential/practice"
           sub:
           - name: Codewars
-            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-codewars-code-practice"
+            ref: "/u02-csharp/p02-csharp-essential/practice/tasks-codewars-code-practice"
           - name: Additional tasks
-            ref: "/u02-csharp/p02-csharp-essential/additional-practice/tasks-additional"
+            ref: "/u02-csharp/p02-csharp-essential/practice/tasks-additional"
       - name: P03 - C# 8 Algorithms
         ref: "/u02-csharp/p03-csharp-algorithms-and-data-structures"
         sub:
