@@ -36,7 +36,7 @@
 - [Metanit - Основы T-SQL. DDL - Атрибуты и ограничения столбцов и таблиц](https://metanit.com/sql/sqlserver/3.4.php)
 - [Metanit - Основы T-SQL. DDL - Внешние ключи](https://metanit.com/sql/sqlserver/3.5.php)
 - [Metanit - Основы T-SQL. DDL - Изменение таблицы](https://metanit.com/sql/sqlserver/3.6.php)
-- [Metanit - Основы T-SQL. DDL - Пакеты. Команда G](https://metanit.com/sql/sqlserver/3.7.php)
+- [Metanit - Основы T-SQL. DDL - Пакеты. Команда Go](https://metanit.com/sql/sqlserver/3.7.php)
 - [Metanit - Основы T-SQL. DML - Добавление данных. Команда Insert](https://metanit.com/sql/sqlserver/4.1.php)
 - [Metanit - Основы T-SQL. DML - Выборка данных. Команда SELECT](https://metanit.com/sql/sqlserver/4.1.php)
 - [Metanit - Основы T-SQL. DML - Обновление данных. Команда UPDATE](https://metanit.com/sql/sqlserver/4.7.php)
@@ -109,7 +109,7 @@
 
 ### Основные материалы
 
-- [№5. System Catalog. Aggregate functions](https://itvdn.com/ru/video/ssms_tsql/systemcatalog)
+- [Урок №5. System Catalog. Aggregate functions](https://itvdn.com/ru/video/ssms_tsql/systemcatalog)
 
 ### Дополнительные материалы
 
@@ -124,7 +124,7 @@
 
 ### Основные материалы
 
-- [№6. Целостность данных. Первичный, внешний ключ](https://itvdn.com/ru/video/ssms_tsql/data_integrity)
+- [Урок №6. Целостность данных. Первичный, внешний ключ](https://itvdn.com/ru/video/ssms_tsql/data_integrity)
 
 ### Дополнительные материалы
 
@@ -140,7 +140,7 @@
 
 ### Основные материалы
 
-- [№7. Нормализация БД](https://itvdn.com/ru/video/ssms_tsql/normdb)
+- [Урок №7. Нормализация БД](https://itvdn.com/ru/video/ssms_tsql/normdb)
 
 ### Дополнительные материалы
 
@@ -157,7 +157,7 @@
 
 ### Основные материалы
 
-- [№8. Соединение таблиц. JOINs](https://itvdn.com/ru/video/ssms_tsql/joins)
+- [Урок №8. Соединение таблиц. JOINs](https://itvdn.com/ru/video/ssms_tsql/joins)
 
 ### Дополнительные материалы
 
@@ -174,7 +174,7 @@
 
 ### Основные материалы
 
-- [№9. Операторы работы с наборами. Представления](https://itvdn.com/ru/video/ssms_tsql/representation)
+- [Урок №9. Операторы работы с наборами. Представления](https://itvdn.com/ru/video/ssms_tsql/representation)
 
 ### Дополнительные материалы
 
@@ -196,7 +196,7 @@
 
 ### Основные материалы
 
-- [№10. Subquery, Temporary table, Common table expression](https://itvdn.com/ru/video/ssms_tsql/subquery)
+- [Урок №10. Subquery, Temporary table, Common table expression](https://itvdn.com/ru/video/ssms_tsql/subquery)
 
 ### Дополнительные материалы
 
@@ -215,7 +215,7 @@
 
 ### Основные материалы
 
-- [№11. Индексы](https://itvdn.com/ru/video/ssms_tsql/indexes)
+- [Урок №11. Индексы](https://itvdn.com/ru/video/ssms_tsql/indexes)
 
 ### Дополнительные материалы
 
@@ -233,7 +233,7 @@
 
 ### Основные материалы
 
-- [№12. Процедурный язык Transact-SQL](https://itvdn.com/ru/video/ssms_tsql/procedural_language)
+- [Урок №12. Процедурный язык Transact-SQL](https://itvdn.com/ru/video/ssms_tsql/procedural_language)
 
 ### Дополнительные материалы
 
@@ -257,7 +257,7 @@
 
 ### Основные материалы
 
-- [№13. Хранимые процедуры. Пользовательские функции](https://itvdn.com/ru/video/ssms_tsql/custom_functions)
+- [Урок №13. Хранимые процедуры. Пользовательские функции](https://itvdn.com/ru/video/ssms_tsql/custom_functions)
 
 ### Дополнительные материалы
 
@@ -277,7 +277,7 @@
 
 ### Основные материалы
 
-- [№14. Транзакции. Триггеры](https://itvdn.com/ru/video/ssms_tsql/transactions)
+- [Урок №14. Транзакции. Триггеры](https://itvdn.com/ru/video/ssms_tsql/transactions)
 
 ### Дополнительные материалы
 
