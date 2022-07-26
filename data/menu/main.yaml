@@ -74,3 +74,16 @@ main:
           ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-codewars-code-practice"
         - name: Additional tasks
           ref: "/u03-databases/p01-databases-transact-sql/practice/tasks-additional"
+    - name: P02 - SQL Essential
+      ref: "/u03-databases/p02-databases-sql-essential"
+      sub:
+      - name: Theory
+        ref: "/u03-databases/p02-databases-sql-essential/theory"
+      - name: Questions for Interview
+        ref: "/u03-databases/p02-databases-sql-essential/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Codewars
+          ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-codewars-code-practice"
+        - name: Additional tasks
+          ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-additional"

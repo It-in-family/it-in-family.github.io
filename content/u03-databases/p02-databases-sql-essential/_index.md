@@ -2,13 +2,13 @@
 geekdocCollapseSection: true
 ---
 
-# Transact-SQL
+# SQL Базовый
 
-[Основной курс по Transact-SQL на ITVDN](https://itvdn.com/ru/video/ssms_tsql)
+[Основной курс по SQL Базовый на ITVDN](https://itvdn.com/ru/video/sql-essential)
 
-[Дополнительные материалы по всему курсу Transact-SQL]:----------------------------------------------------------
+[Дополнительные материалы по всему курсу SQL Базовый]:----------------------------------------------------------
 
-{{< expand "Дополнительные материалы по всему курсу Transact-SQL" "..." >}}
+{{< expand "Дополнительные материалы по всему курсу SQL Базовый" "..." >}}
 
   - [SQL Academy - Учебник](https://sql-academy.org/ru/guide)
   - [SQL Academy - Онлайн Тренажер](https://sql-academy.org/ru/trainer?sort=byId)
