@@ -1,0 +1,1256 @@
+<!doctype html><html lang=en class=color-toggle-hidden>
+<head>
+<meta charset=utf-8>
+<meta name=referrer content="no-referrer">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=color-scheme content="light dark">
+<meta name=generator content="Hugo 0.91.2">
+<meta name=description content="Теория     №1. Введение в ООП, классы и объекты ...  Основные материалы     Урок №1. Введение в ООП, классы и объекты
+Дополнительные материалы      Metanit - Классы и объекты Metanit - Конструкторы, инициализаторы и деконструкторы Metanit - Свойства Metanit - Перегрузка методов Microsoft Docs - Introduction to classes Microsoft Docs - Members (C# Programming Guide) Microsoft Docs - Fields (C# Programming Guide) Microsoft Docs - Constructors (C# programming guide) Microsoft Docs - Using Constructors (C# Programming Guide) Microsoft Docs - Instance constructors (C# programming guide) Microsoft Docs - Methods (C# Programming Guide) Microsoft Docs - Properties in C# Microsoft Docs - Properties (C# Programming Guide) Microsoft Docs - Using Properties (C# Programming Guide) Microsoft Docs - How to declare and use read write properties (C# Programming Guide) Microsoft Docs - Auto-Implemented Properties (C# Programming Guide) Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)    №2.">
+<title>Theory | IT in Family</title>
+<link rel=icon type=image/svg+xml href=/favicon/favicon.svg>
+<link rel=icon type=image/png sizes=32x32 href=/favicon/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon/favicon-16x16.png>
+<meta property="og:title" content="Theory">
+<meta property="og:site_name" content="IT in Family">
+<meta property="og:description" content="Теория     №1. Введение в ООП, классы и объекты ...  Основные материалы     Урок №1. Введение в ООП, классы и объекты
+Дополнительные материалы      Metanit - Классы и объекты Metanit - Конструкторы, инициализаторы и деконструкторы Metanit - Свойства Metanit - Перегрузка методов Microsoft Docs - Introduction to classes Microsoft Docs - Members (C# Programming Guide) Microsoft Docs - Fields (C# Programming Guide) Microsoft Docs - Constructors (C# programming guide) Microsoft Docs - Using Constructors (C# Programming Guide) Microsoft Docs - Instance constructors (C# programming guide) Microsoft Docs - Methods (C# Programming Guide) Microsoft Docs - Properties in C# Microsoft Docs - Properties (C# Programming Guide) Microsoft Docs - Using Properties (C# Programming Guide) Microsoft Docs - How to declare and use read write properties (C# Programming Guide) Microsoft Docs - Auto-Implemented Properties (C# Programming Guide) Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)    №2.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost/u02-csharp/p02-csharp-essential/theory/">
+<meta property="article:section" content="U02 Csharp">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Theory">
+<meta name=twitter:description content="Теория     №1. Введение в ООП, классы и объекты ...  Основные материалы     Урок №1. Введение в ООП, классы и объекты
+Дополнительные материалы      Metanit - Классы и объекты Metanit - Конструкторы, инициализаторы и деконструкторы Metanit - Свойства Metanit - Перегрузка методов Microsoft Docs - Introduction to classes Microsoft Docs - Members (C# Programming Guide) Microsoft Docs - Fields (C# Programming Guide) Microsoft Docs - Constructors (C# programming guide) Microsoft Docs - Using Constructors (C# Programming Guide) Microsoft Docs - Instance constructors (C# programming guide) Microsoft Docs - Methods (C# Programming Guide) Microsoft Docs - Properties in C# Microsoft Docs - Properties (C# Programming Guide) Microsoft Docs - Using Properties (C# Programming Guide) Microsoft Docs - How to declare and use read write properties (C# Programming Guide) Microsoft Docs - Auto-Implemented Properties (C# Programming Guide) Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)    №2.">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"TechArticle","articleSection":"U02 Csharp","name":"Theory","url":"http://localhost/u02-csharp/p02-csharp-essential/theory/","headline":"Theory","description":"Теория     №1. Введение в ООП, классы и объекты ...  Основные материалы     Урок №1. Введение в ООП, классы и объекты\nДополнительные материалы      Metanit - Классы и объекты Metanit - Конструкторы, инициализаторы и деконструкторы Metanit - Свойства Metanit - Перегрузка методов Microsoft Docs - Introduction to classes Microsoft Docs - Members (C# Programming Guide) Microsoft Docs - Fields (C# Programming Guide) Microsoft Docs - Constructors (C# programming guide) Microsoft Docs - Using Constructors (C# Programming Guide) Microsoft Docs - Instance constructors (C# programming guide) Microsoft Docs - Methods (C# Programming Guide) Microsoft Docs - Properties in C# Microsoft Docs - Properties (C# Programming Guide) Microsoft Docs - Using Properties (C# Programming Guide) Microsoft Docs - How to declare and use read write properties (C# Programming Guide) Microsoft Docs - Auto-Implemented Properties (C# Programming Guide) Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)    №2.","wordCount":"1834","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost/u02-csharp/p02-csharp-essential/theory/"},"copyrightHolder":"IT in Family","copyrightYear":"0001","dateCreated":"0001-01-01T00:00:00.00Z","datePublished":"0001-01-01T00:00:00.00Z","dateModified":"0001-01-01T00:00:00.00Z","publisher":{"@type":"Organization","name":"IT in Family","url":"http://localhost","logo":{"@type":"ImageObject","url":"http://localhost/brand.svg","width":"32","height":"32"}}}</script>
+<script src=/js/main-51ef884d.bundle.min.js></script>
+<link rel=preload as=font href=/fonts/Metropolis.woff2 type=font/woff2 crossorigin=anonymous>
+<link rel=preload as=font href=/fonts/LiberationSans.woff2 type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/main-2437a034.min.css as=style>
+<link rel=stylesheet href=/main-2437a034.min.css media=all>
+<link rel=preload href=/mobile-467819cb.min.css as=style>
+<link rel=stylesheet href=/mobile-467819cb.min.css media="screen and (max-width: 45rem)">
+<link rel=preload href=/print-19966b38.min.css as=style>
+<link rel=stylesheet href=/print-19966b38.min.css media=print>
+<link rel=preload href=/custom.css as=style>
+<link rel=stylesheet href=/custom.css media=all>
+<link href=http://localhost/u02-csharp/p02-csharp-essential/theory/ rel=canonical type=text/html>
+</head>
+<body itemscope itemtype=https://schema.org/WebPage>
+<svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_back" xmlns="http://www.w3.org/2000/svg"><path d="M24 10.526v2.947H5.755l8.351 8.421-2.105 2.105-12-12 12-12 2.105 2.105-8.351 8.421H24z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_left_alt" xmlns="http://www.w3.org/2000/svg"><path d="M5.965 10.526V6.035L0 12l5.965 5.965v-4.491H24v-2.947H5.965z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_right_alt" xmlns="http://www.w3.org/2000/svg"><path d="M18.035 10.526V6.035L24 12l-5.965 5.965v-4.491H0v-2.947h18.035z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_bitbucket" xmlns="http://www.w3.org/2000/svg"><path d="M15.905 13.355c.189 1.444-1.564 2.578-2.784 1.839-1.375-.602-1.375-2.784-.034-3.403 1.151-.705 2.818.223 2.818 1.564zm1.907-.361c-.309-2.44-3.076-4.056-5.328-3.042-1.426.636-2.389 2.148-2.32 3.747.086 2.097 2.08 3.815 4.176 3.626s3.729-2.234 3.472-4.331zm4.108-9.315c-.756-.997-2.045-1.169-3.179-1.358-3.214-.516-6.513-.533-9.727.034-1.066.172-2.269.361-2.939 1.323 1.1 1.031 2.664 1.186 4.073 1.358 2.544.327 5.156.344 7.699.017 1.426-.172 3.008-.309 4.073-1.375zm.979 17.788c-.481 1.684-.206 3.953-1.994 4.932-3.076 1.701-6.806 1.89-10.191 1.289-1.787-.327-3.884-.894-4.864-2.578-.43-1.65-.705-3.334-.98-5.018l.103-.275.309-.155c5.121 3.386 12.288 3.386 17.427.0.808.241.206 1.22.189 1.805zM26.01 4.951c-.584 3.764-1.255 7.51-1.908 11.257-.189 1.1-1.255 1.719-2.148 2.183-3.214 1.615-6.96 1.89-10.483 1.512-2.389-.258-4.829-.894-6.771-2.389-.911-.705-.911-1.908-1.083-2.922-.602-3.523-1.289-7.046-1.719-10.604.206-1.547 1.942-2.217 3.231-2.698C6.848.654 8.686.362 10.508.19c3.884-.378 7.854-.241 11.618.859 1.341.395 2.784.945 3.695 2.097.412.533.275 1.203.189 1.805z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_bookmark" xmlns="http://www.w3.org/2000/svg"><path d="M15.268 4.392q.868.0 1.532.638t.664 1.506v17.463l-7.659-3.268-7.608 3.268V6.536q0-.868.664-1.506t1.532-.638h10.876zm4.34 14.144V4.392q0-.868-.638-1.532t-1.506-.664H6.537q0-.868.664-1.532T8.733.0h10.876q.868.0 1.532.664t.664 1.532v17.412z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_auto" xmlns="http://www.w3.org/2000/svg"><path d="M16.846 18.938h2.382L15.22 7.785h-2.44L8.772 18.938h2.382l.871-2.44h3.95zm7.087-9.062L27.999 14l-4.066 4.124v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809zm-11.385 4.937L14 10.282l1.452 4.531h-2.904z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_dark" xmlns="http://www.w3.org/2000/svg"><path d="M14 21.435q3.079.0 5.257-2.178T21.435 14t-2.178-5.257T14 6.565q-1.51.0-3.079.697 1.917.871 3.108 2.701T15.22 14t-1.191 4.037-3.108 2.701q1.568.697 3.079.697zm9.933-11.559L27.999 14l-4.066 4.124v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_light" xmlns="http://www.w3.org/2000/svg"><path d="M14 21.435q3.079.0 5.257-2.178T21.435 14t-2.178-5.257T14 6.565 8.743 8.743 6.565 14t2.178 5.257T14 21.435zm9.933-3.311v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809L27.999 14z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_check" xmlns="http://www.w3.org/2000/svg"><path d="M8.885 20.197 25.759 3.323l2.24 2.24L8.885 24.677.0 15.792l2.24-2.24z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_check_circle_outline" xmlns="http://www.w3.org/2000/svg"><path d="M14 25.239q4.601.0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784.0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm6.441 7.822 1.972 1.972-11.239 11.239L4.207 14l1.972-1.972 4.995 4.995z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_cloud_off" xmlns="http://www.w3.org/2000/svg"><path d="M9.023 10.5H7q-1.914.0-3.281 1.395t-1.367 3.309 1.367 3.281T7 19.852h11.375zM3.5 4.976l1.477-1.477L24.5 23.022l-1.477 1.477-2.352-2.297H6.999q-2.898.0-4.949-2.051t-2.051-4.949q0-2.844 1.969-4.867t4.758-2.133zm19.086 5.578q2.242.164 3.828 1.832T28 16.351q0 3.008-2.461 4.758l-1.695-1.695q1.805-.984 1.805-3.063.0-1.422-1.039-2.461t-2.461-1.039h-1.75v-.602q0-2.68-1.859-4.539t-4.539-1.859q-1.531.0-2.953.711l-1.75-1.695Q11.431 3.5 14.001 3.5q2.953.0 5.496 2.078t3.09 4.977z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_code" xmlns="http://www.w3.org/2000/svg"><path d="M9.917 24.5a1.75 1.75.0 10-3.501.001 1.75 1.75.0 003.501-.001zm0-21a1.75 1.75.0 10-3.501.001A1.75 1.75.0 009.917 3.5zm11.666 2.333a1.75 1.75.0 10-3.501.001 1.75 1.75.0 003.501-.001zm1.75.0a3.502 3.502.0 01-1.75 3.026c-.055 6.581-4.721 8.039-7.82 9.023-2.898.911-3.846 1.349-3.846 3.117v.474a3.502 3.502.0 011.75 3.026c0 1.932-1.568 3.5-3.5 3.5s-3.5-1.568-3.5-3.5c0-1.294.711-2.424 1.75-3.026V6.526A3.502 3.502.0 014.667 3.5c0-1.932 1.568-3.5 3.5-3.5s3.5 1.568 3.5 3.5a3.502 3.502.0 01-1.75 3.026v9.06c.93-.456 1.914-.766 2.807-1.039 3.391-1.075 5.323-1.878 5.359-5.687a3.502 3.502.0 01-1.75-3.026c0-1.932 1.568-3.5 3.5-3.5s3.5 1.568 3.5 3.5z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_copy" xmlns="http://www.w3.org/2000/svg"><path d="M23.502 25.438V7.626H9.562v17.812h13.94zm0-20.315q1.013.0 1.787.745t.774 1.757v17.812q0 1.013-.774 1.787t-1.787.774H9.562q-1.013.0-1.787-.774t-.774-1.787V7.625q0-1.013.774-1.757t1.787-.745h13.94zM19.689.0v2.562H4.438v17.812H1.936V2.562q0-1.013.745-1.787T4.438.001h15.251z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_dangerous" xmlns="http://www.w3.org/2000/svg"><path d="M21.802 19.833 15.969 14l5.833-5.833-1.969-1.969L14 12.031 8.167 6.198 6.198 8.167 12.031 14l-5.833 5.833 1.969 1.969L14 15.969l5.833 5.833zM19.833.0 28 8.167v11.666L19.833 28H8.167L0 19.833V8.167L8.167.0h11.666z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_date" xmlns="http://www.w3.org/2000/svg"><path d="M27.192 28.844V11.192H4.808v17.652h22.384zm0-25.689q1.277.0 2.253.976t.976 2.253v22.459q0 1.277-.976 2.216t-2.253.939H4.808q-1.352.0-2.291-.901t-.939-2.253V6.385q0-1.277.939-2.253t2.291-.976h1.577V.001h3.23v3.155h12.769V.001h3.23v3.155h1.577zm-3.155 11.267v3.155h-3.23v-3.155h3.23zm-6.46.0v3.155h-3.155v-3.155h3.155zm-6.384.0v3.155h-3.23v-3.155h3.23z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_download" xmlns="http://www.w3.org/2000/svg"><path d="M2.866 28.209h26.269v3.79H2.866v-3.79zm26.268-16.925L16 24.418 2.866 11.284h7.493V.001h11.283v11.283h7.493z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_email" xmlns="http://www.w3.org/2000/svg"><path d="M28.845 9.615v-3.23L16 14.422 3.155 6.385v3.23L16 17.577zm0-6.46q1.277.0 2.216.977T32 6.385v19.23q0 1.277-.939 2.253t-2.216.977H3.155q-1.277.0-2.216-.977T0 25.615V6.385q0-1.277.939-2.253t2.216-.977h25.69z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_error_outline" xmlns="http://www.w3.org/2000/svg"><path d="M14 25.239q4.601.0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784.0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm-1.38 6.967h2.761v8.413H12.62V6.967zm0 11.239h2.761v2.826H12.62v-2.826z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_fire" xmlns="http://www.w3.org/2000/svg"><path d="M17.689 21.998q-.32.32-.8.576t-.864.384q-1.152.384-2.272.032t-1.888-.992q-.128-.128-.096-.256t.16-.192q1.216-.384 1.92-1.216t.96-1.792q.192-.896-.064-1.728t-.384-1.728q-.128-.704-.096-1.376t.288-1.312q0-.128.128-.128t.192.064q.384.832.992 1.472t1.28 1.216 1.216 1.248.672 1.568q.064.384.064.704.064.96-.32 1.92t-1.088 1.536zm3.84-10.944q-.768-.704-1.6-1.28t-1.6-1.344q-1.536-1.536-2.016-3.584t.16-4.16q.128-.32-.096-.544t-.544-.096q-.768.32-1.44.768t-1.312.896q-1.984 1.664-3.136 3.936T8.633 10.51t.8 5.088q0 .128.032.256t.032.256q0 .576-.512.832t-1.024-.192q-.128-.192-.192-.32-1.024-1.28-1.376-2.912t-.096-3.232q.064-.384-.288-.576t-.608.128q-1.28 1.664-1.856 3.68t-.448 4.064q0 .576.096 1.184t.288 1.184q.448 1.536 1.216 2.816 1.216 2.048 3.264 3.424t4.416 1.696q2.496.32 5.024-.256t4.448-2.304q1.408-1.344 2.208-3.104t.864-3.68-.704-3.712q-.064-.128-.096-.224t-.096-.224q-.576-1.088-1.28-1.984-.256-.384-.544-.704t-.672-.64z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_git" xmlns="http://www.w3.org/2000/svg"><path d="M27.472 12.753 15.247.529a1.803 1.803.0 00-2.55.0l-2.84 2.84 2.137 2.137a2.625 2.625.0 013.501 3.501l3.499 3.499a2.625 2.625.0 11-1.237 1.237l-3.499-3.499c-.083.04-.169.075-.257.106v7.3a2.626 2.626.0 11-1.75.0v-7.3a2.626 2.626.0 01-1.494-3.607L8.62 4.606l-8.09 8.09a1.805 1.805.0 000 2.551l12.225 12.224a1.803 1.803.0 002.55.0l12.168-12.168a1.805 1.805.0 000-2.551z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_github" xmlns="http://www.w3.org/2000/svg"><path d="M16 .394c8.833.0 15.999 7.166 15.999 15.999.0 7.062-4.583 13.062-10.937 15.187-.813.146-1.104-.354-1.104-.771.0-.521.021-2.25.021-4.396.0-1.5-.5-2.458-1.083-2.958 3.562-.396 7.312-1.75 7.312-7.896.0-1.75-.625-3.167-1.646-4.291.167-.417.708-2.042-.167-4.25-1.333-.417-4.396 1.646-4.396 1.646a15.032 15.032.0 00-8 0S8.937 6.602 7.603 7.018c-.875 2.208-.333 3.833-.167 4.25-1.021 1.125-1.646 2.542-1.646 4.291.0 6.125 3.729 7.5 7.291 7.896-.458.417-.875 1.125-1.021 2.146-.917.417-3.25 1.125-4.646-1.333-.875-1.521-2.458-1.646-2.458-1.646-1.562-.021-.104.979-.104.979 1.042.479 1.771 2.333 1.771 2.333.938 2.854 5.396 1.896 5.396 1.896.0 1.333.021 2.583.021 2.979.0.417-.292.917-1.104.771C4.582 29.455-.001 23.455-.001 16.393-.001 7.56 7.165.394 15.998.394zM6.063 23.372c.042-.083-.021-.187-.146-.25-.125-.042-.229-.021-.271.042-.042.083.021.187.146.25.104.062.229.042.271-.042zm.646.709c.083-.062.062-.208-.042-.333-.104-.104-.25-.146-.333-.062-.083.062-.062.208.042.333.104.104.25.146.333.062zm.625.937c.104-.083.104-.25.0-.396-.083-.146-.25-.208-.354-.125-.104.062-.104.229.0.375s.271.208.354.146zm.875.875c.083-.083.042-.271-.083-.396-.146-.146-.333-.167-.417-.062-.104.083-.062.271.083.396.146.146.333.167.417.062zm1.187.521c.042-.125-.083-.271-.271-.333-.167-.042-.354.021-.396.146s.083.271.271.312c.167.062.354.0.396-.125zm1.313.104c0-.146-.167-.25-.354-.229-.187.0-.333.104-.333.229.0.146.146.25.354.229.187.0.333-.104.333-.229zm1.208-.208c-.021-.125-.187-.208-.375-.187-.187.042-.312.167-.292.312.021.125.187.208.375.167s.312-.167.292-.292z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_gitlab" xmlns="http://www.w3.org/2000/svg"><path d="M1.629 11.034 14 26.888.442 17.048a1.09 1.09.0 01-.39-1.203l1.578-4.811zm7.217.0h10.309l-5.154 15.854zM5.753 1.475l3.093 9.559H1.63l3.093-9.559a.548.548.0 011.031.0zm20.618 9.559 1.578 4.811c.141.437-.016.922-.39 1.203l-13.558 9.84 12.371-15.854zm0 0h-7.216l3.093-9.559a.548.548.0 011.031.0z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_heart" xmlns="http://www.w3.org/2000/svg"><path d="M16 29.714a1.11 1.11.0 01-.786-.321L4.072 18.643c-.143-.125-4.071-3.714-4.071-8 0-5.232 3.196-8.357 8.535-8.357 3.125.0 6.053 2.464 7.464 3.857 1.411-1.393 4.339-3.857 7.464-3.857 5.339.0 8.535 3.125 8.535 8.357.0 4.286-3.928 7.875-4.089 8.035L16.785 29.392c-.214.214-.5.321-.786.321z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_home" xmlns="http://www.w3.org/2000/svg"><path d="M24.003 15.695v8.336c0 .608-.504 1.111-1.111 1.111h-6.669v-6.669h-4.446v6.669H5.108a1.119 1.119.0 01-1.111-1.111v-8.336c0-.035.017-.069.017-.104L14 7.359l9.986 8.232a.224.224.0 01.017.104zm3.873-1.198-1.077 1.285a.578.578.0 01-.365.191h-.052a.547.547.0 01-.365-.122L14 5.831 1.983 15.851a.594.594.0 01-.417.122.578.578.0 01-.365-.191L.124 14.497a.57.57.0 01.069-.781L12.679 3.314c.729-.608 1.91-.608 2.64.0l4.237 3.543V3.471c0-.313.243-.556.556-.556h3.334c.313.0.556.243.556.556v7.085l3.803 3.161c.226.191.26.556.069.781z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_info_outline" xmlns="http://www.w3.org/2000/svg"><path d="M12.62 9.793V6.967h2.761v2.826H12.62zM14 25.239q4.601.0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784.0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm-1.38 21.033V12.62h2.761v8.413H12.62z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_keyboard_arrow_down" xmlns="http://www.w3.org/2000/svg"><path d="M3.281 5.36 14 16.079 24.719 5.36 28 8.641l-14 14-14-14z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_keyboard_arrow_left" xmlns="http://www.w3.org/2000/svg"><path d="M25.875 28.25 22.125 32 6.126 16.001 22.125.002l3.75 3.75-12.25 12.25z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_keyboard_arrow_right" xmlns="http://www.w3.org/2000/svg"><path d="M6.125 28.25 18.375 16 6.125 3.75 9.875.0l15.999 15.999L9.875 31.998z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_keyboard_arrow_up" xmlns="http://www.w3.org/2000/svg"><path d="M24.719 22.64 14 11.921 3.281 22.64.0 19.359l14-14 14 14z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_language" xmlns="http://www.w3.org/2000/svg"><path d="M20.112 16.826h4.732q.394-1.84.394-2.826t-.394-2.826h-4.732q.197 1.38.197 2.826t-.197 2.826zm-2.497 7.756q1.643-.526 3.418-2.005t2.695-2.991h-4.141q-.657 2.629-1.972 4.995zm-.329-7.756q.197-1.38.197-2.826t-.197-2.826h-6.573q-.197 1.38-.197 2.826t.197 2.826h6.573zM14 25.173q1.84-2.695 2.695-5.587h-5.39q.854 2.892 2.695 5.587zM8.413 8.413q.789-2.826 1.972-4.995-1.643.526-3.451 2.005T4.272 8.414h4.141zM4.272 19.587q.854 1.512 2.662 2.991t3.451 2.005q-1.315-2.366-1.972-4.995H4.272zm-1.117-2.761h4.732Q7.69 15.446 7.69 14t.197-2.826H3.155q-.394 1.84-.394 2.826t.394 2.826zM14 2.826q-1.84 2.695-2.695 5.587h5.39Q15.841 5.521 14 2.826zm9.727 5.587q-.92-1.512-2.695-2.991t-3.418-2.005q1.183 2.169 1.972 4.995h4.141zM14 0q5.784.0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_link" xmlns="http://www.w3.org/2000/svg"><path d="M24.037 7.963q3.305.0 5.634 2.366T32 16t-2.329 5.671-5.634 2.366h-6.46v-3.08h6.46q2.028.0 3.493-1.465t1.465-3.493-1.465-3.493-3.493-1.465h-6.46v-3.08h6.46zM9.615 17.578v-3.155h12.77v3.155H9.615zM3.005 16q0 2.028 1.465 3.493t3.493 1.465h6.46v3.08h-6.46q-3.305.0-5.634-2.366T0 16.001t2.329-5.671 5.634-2.366h6.46v3.08h-6.46q-2.028.0-3.493 1.465t-1.465 3.493z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_menu" xmlns="http://www.w3.org/2000/svg"><path d="M.001 5.334h31.998v3.583H.001V5.334zm0 12.416v-3.5h31.998v3.5H.001zm0 8.916v-3.583h31.998v3.583H.001z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_notification" xmlns="http://www.w3.org/2000/svg"><path d="M22.615 19.384l2.894 2.894v1.413H2.49v-1.413l2.894-2.894V12.25q0-3.365 1.716-5.856t4.745-3.231v-1.01q0-.875.606-1.514T13.999.0t1.548.639.606 1.514v1.01q3.029.74 4.745 3.231t1.716 5.856v7.134zM14 27.999q-1.211.0-2.053-.808t-.841-2.019h5.788q0 1.144-.875 1.986T14 27.999z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_path" xmlns="http://www.w3.org/2000/svg"><path d="M28 12.62h-9.793V8.414h-2.826v11.173h2.826v-4.206H28V26.62h-9.793v-4.206H12.62v-14H9.794v4.206H.001V1.381h9.793v4.206h8.413V1.381H28V12.62z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_person" xmlns="http://www.w3.org/2000/svg"><path d="M16 20.023q5.052.0 10.526 2.199t5.473 5.754v4.023H0v-4.023q0-3.555 5.473-5.754t10.526-2.199zM16 16q-3.275.0-5.614-2.339T8.047 8.047t2.339-5.661T16 0t5.614 2.386 2.339 5.661-2.339 5.614T16 16z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_search" xmlns="http://www.w3.org/2000/svg"><path d="M11.925 20.161q3.432.0 5.834-2.402t2.402-5.834-2.402-5.834-5.834-2.402-5.834 2.402-2.402 5.834 2.402 5.834 5.834 2.402zm10.981.0L32 29.255 29.255 32l-9.094-9.094v-1.458l-.515-.515q-3.26 2.831-7.721 2.831-4.976.0-8.45-3.432T.001 11.925t3.474-8.45 8.45-3.474 8.407 3.474 3.432 8.45q0 1.802-.858 4.075t-1.973 3.646l.515.515h1.458z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_shield" xmlns="http://www.w3.org/2000/svg"><path d="M22.167 15.166V3.5h-8.166v20.726c.93-.492 2.424-1.349 3.883-2.497 1.95-1.531 4.284-3.919 4.284-6.562zm3.499-13.999v14c0 7.674-10.737 12.523-11.192 12.724-.146.073-.31.109-.474.109s-.328-.036-.474-.109c-.456-.201-11.192-5.049-11.192-12.724v-14C2.334.529 2.863.0 3.501.0H24.5c.638.0 1.167.529 1.167 1.167z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_star" xmlns="http://www.w3.org/2000/svg"><path d="M14 22.052 5.324 27.31l2.3-9.859L0 10.813l10.056-.854L14 .692l3.944 9.267L28 10.813l-7.624 6.638 2.3 9.859z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_tag" xmlns="http://www.w3.org/2000/svg"><path d="M17.52 17.52v-7.041h-7.041v7.041h7.041zM28 10.479h-7.041v7.041H28v3.439h-7.041V28H17.52v-7.041h-7.041V28H7.04v-7.041H-.001V17.52H7.04v-7.041H-.001V7.04H7.04V-.001h3.439V7.04h7.041V-.001h3.439V7.04H28v3.439z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_timer" xmlns="http://www.w3.org/2000/svg"><path d="M16 29q4.428.0 7.536-3.143t3.107-7.571-3.107-7.536T16 7.643 8.464 10.75t-3.107 7.536 3.107 7.571T16 29zM26.714 9.786q1.214 1.571 2.107 4.036t.893 4.464q0 5.643-4 9.678T16 32t-9.714-4.036-4-9.678 4-9.678T16 4.572q1.929.0 4.464.929t4.107 2.143l2.143-2.214q1.143.929 2.143 2.143zM14.5 19.857v-9.143h3v9.143h-3zM20.571.001v3.071h-9.143V.001h9.143z"/></svg></defs></svg>
+<div class=wrapper>
+<input type=checkbox class=hidden id=menu-control>
+<input type=checkbox class=hidden id=menu-header-control>
+<header class=gdoc-header>
+<div class="container flex align-center justify-between">
+<label for=menu-control class=gdoc-nav__control tabindex=0><svg class="gdoc-icon gdoc_menu"><title>Open Navigation</title><use xlink:href="#gdoc_menu"/></svg><svg class="gdoc-icon gdoc_arrow_back"><title>Close Navigation</title><use xlink:href="#gdoc_arrow_back"/></svg>
+</label>
+<div>
+<a class="gdoc-brand gdoc-header__link" href=http://localhost>
+<span class="flex align-center">
+<img class=gdoc-brand__img src=/logo.svg alt>
+<span class=gdoc-brand__title>IT in Family</span>
+</span>
+</a>
+</div>
+<div class=gdoc-menu-header>
+<span class=gdoc-menu-header__items>
+<span id=gdoc-color-theme><svg class="gdoc-icon gdoc_brightness_dark"><title>Toggle Dark/Light/Auto mode</title><use xlink:href="#gdoc_brightness_dark"/></svg><svg class="gdoc-icon gdoc_brightness_light"><title>Toggle Dark/Light/Auto mode</title><use xlink:href="#gdoc_brightness_light"/></svg><svg class="gdoc-icon gdoc_brightness_auto"><title>Toggle Dark/Light/Auto mode</title><use xlink:href="#gdoc_brightness_auto"/></svg>
+</span>
+<span class=gdoc-menu-header__home>
+<a href=http://localhost class=gdoc-header__link><svg class="gdoc-icon gdoc_home"><title>Back to homepage</title><use xlink:href="#gdoc_home"/></svg>
+</a>
+</span>
+<span class=gdoc-menu-header__control>
+<label for=menu-header-control><svg class="gdoc-icon gdoc_keyboard_arrow_right"><use xlink:href="#gdoc_keyboard_arrow_right"/><title>Close Menu Bar</title></svg>
+</label>
+</span>
+</span>
+<label for=menu-header-control class=gdoc-menu-header__control><svg class="gdoc-icon gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/><title>Open Menu Bar</title></svg>
+</label>
+</div>
+</div>
+</header>
+<main class="container flex flex-even">
+<aside class=gdoc-nav>
+<nav>
+<div class="gdoc-search flex align-center"><svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"/></svg>
+<input type=text id=gdoc-search-input class=gdoc-search__input placeholder=Search aria-label=Search maxlength=64 data-site-base-url=http://localhost data-site-lang=en>
+<div class="gdoc-search__spinner spinner hidden"></div>
+<ul id=gdoc-search-results class=gdoc-search__list></ul>
+</div>
+<section class=gdoc-nav--main>
+<h2>Navigation</h2>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
+<a href=/u00-preface/ class=gdoc-nav__entry>
+U00 - Preface
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-9e57f345>
+<label for=navtree-9e57f345 class="flex justify-between align-center">
+<span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
+<a href=/u01-git/ class=gdoc-nav__entry>
+U01 - Git
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/self-control/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u01-git/practice/ class=gdoc-nav__entry>
+Practice
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-d8a00f9b checked>
+<label for=navtree-d8a00f9b class="flex justify-between align-center">
+<span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
+<a href=/u02-csharp/ class=gdoc-nav__entry>
+U02 - C#
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-2f21c9f3>
+<label for=navtree-2f21c9f3 class="flex justify-between align-center">
+<span class=flex>
+<a href=/u02-csharp/p01-csharp-8-starter/ class=gdoc-nav__entry>
+P01 - C# 8 Starter
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p01-csharp-8-starter/additional-info/ class=gdoc-nav__entry>
+Additional info
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p01-csharp-8-starter/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p01-csharp-8-starter/additional-practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-d6d63384 checked>
+<label for=navtree-d6d63384 class="flex justify-between align-center">
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/ class=gdoc-nav__entry>
+P02 - C# Essential (OOP)
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/theory/ class="gdoc-nav__entry is-active">
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/practice/ class=gdoc-nav__entry>
+Practice
+</a>
+</span>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p02-csharp-essential/practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-374c28e2>
+<label for=navtree-374c28e2 class="flex justify-between align-center">
+<span class=flex>
+<a href=/u02-csharp/p03-csharp-algorithms-and-data-structures/ class=gdoc-nav__entry>
+P03 - C# 8 Algorithms
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p03-csharp-algorithms-and-data-structures/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p03-csharp-algorithms-and-data-structures/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<span class=flex>Practice</span>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p03-csharp-algorithms-and-data-structures/practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-74108585>
+<label for=navtree-74108585 class="flex justify-between align-center">
+<span class=flex>
+<a href=/u02-csharp/p04-csharp-for-professional/ class=gdoc-nav__entry>
+P04 - C# 8 For Professional
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p04-csharp-for-professional/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p04-csharp-for-professional/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<span class=flex>Practice</span>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p04-csharp-for-professional/practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u02-csharp/p04-csharp-for-professional/practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-2cdbd28e>
+<label for=navtree-2cdbd28e class="flex justify-between align-center">
+<span class=flex><svg class="gdoc-icon gdoc_tag"><use xlink:href="#gdoc_tag"/></svg>
+<a href=/u03-databases/ class=gdoc-nav__entry>
+U03 - Databases
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-49c2ae10>
+<label for=navtree-49c2ae10 class="flex justify-between align-center">
+<span class=flex>
+<a href=/u03-databases/p01-databases-transact-sql/ class=gdoc-nav__entry>
+P01 - Transact-SQL
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p01-databases-transact-sql/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p01-databases-transact-sql/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<span class=flex>Practice</span>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p01-databases-transact-sql/practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p01-databases-transact-sql/practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<input type=checkbox class=gdoc-nav__toggle id=navtree-be8e9a0a>
+<label for=navtree-be8e9a0a class="flex justify-between align-center">
+<span class=flex>
+<a href=/u03-databases/p02-databases-sql-essential/ class=gdoc-nav__entry>
+P02 - SQL Essential
+</a>
+</span><svg class="gdoc-icon toggle gdoc_keyboard_arrow_left"><use xlink:href="#gdoc_keyboard_arrow_left"/></svg><svg class="gdoc-icon toggle gdoc_keyboard_arrow_down hidden"><use xlink:href="#gdoc_keyboard_arrow_down"/></svg>
+</label>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p02-databases-sql-essential/theory/ class=gdoc-nav__entry>
+Theory
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p02-databases-sql-essential/questions-for-interview/ class=gdoc-nav__entry>
+Questions for Interview
+</a>
+</span>
+</label>
+</li>
+<li>
+<span class=flex>Practice</span>
+<ul class=gdoc-nav__list>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p02-databases-sql-essential/practice/tasks-codewars-code-practice/ class=gdoc-nav__entry>
+Codewars
+</a>
+</span>
+</label>
+</li>
+<li>
+<input type=checkbox class=hidden>
+<label>
+<span class=flex>
+<a href=/u03-databases/p02-databases-sql-essential/practice/tasks-additional/ class=gdoc-nav__entry>
+Additional tasks
+</a>
+</span>
+</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section class=gdoc-nav--more>
+</section>
+</nav>
+</aside>
+<div class=gdoc-page>
+<div class="gdoc-page__header flex flex-wrap
+justify-between
+hidden-mobile" itemprop=breadcrumb>
+<div><svg class="gdoc-icon gdoc_path hidden-mobile"><use xlink:href="#gdoc_path"/></svg>
+<ol class=breadcrumb itemscope itemtype=https://schema.org/BreadcrumbList>
+<li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><a itemscope itemtype=https://schema.org/WebPage itemprop=item itemid=/ href=/><span itemprop=name>IT in Family</span></a><meta itemprop=position content="1"></li><li> / </li><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><a itemscope itemtype=https://schema.org/WebPage itemprop=item itemid=/u02-csharp/ href=/u02-csharp/><span itemprop=name>U02 Csharp</span></a><meta itemprop=position content="2"></li><li> / </li><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><a itemscope itemtype=https://schema.org/WebPage itemprop=item itemid=/u02-csharp/p02-csharp-essential/ href=/u02-csharp/p02-csharp-essential/><span itemprop=name>P02 Csharp Essential</span></a><meta itemprop=position content="3"></li><li> / </li><li itemprop=itemListElement itemscope itemtype=https://schema.org/ListItem><span itemprop=name>Theory</span><meta itemprop=position content="4"></li>
+</ol>
+</div>
+</div>
+<article class="gdoc-markdown gdoc-markdown__align--left">
+<div class=gdoc-page__anchorwrap>
+<h1 id=теория>
+Теория
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#теория class="gdoc-page__anchor clip flex align-center" title="Anchor to: Теория" aria-label="Anchor to: Теория" href=#%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h1>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=bb10e971-0>
+<span>№1. Введение в ООП, классы и объекты</span>
+<span>...</span>
+</label>
+<input id=bb10e971-0 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential>Урок №1. Введение в ООП, классы и объекты</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.1.php>Metanit - Классы и объекты</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.35.php>Metanit - Конструкторы, инициализаторы и деконструкторы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.4.php>Metanit - Свойства</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.5.php>Metanit - Перегрузка методов</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes>Microsoft Docs - Introduction to classes</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/members>Microsoft Docs - Members (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields>Microsoft Docs - Fields (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors>Microsoft Docs - Constructors (C# programming guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-constructors>Microsoft Docs - Using Constructors (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors>Microsoft Docs - Instance constructors (C# programming guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods>Microsoft Docs - Methods (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/properties>Microsoft Docs - Properties in C#</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties>Microsoft Docs - Properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-properties>Microsoft Docs - Using Properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-declare-and-use-read-write-properties>Microsoft Docs - How to declare and use read write properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties>Microsoft Docs - Auto-Implemented Properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-implement-a-lightweight-class-with-auto-implemented-properties>Microsoft Docs - How to implement a lightweight class with auto-implemented properties (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=001fa359-1>
+<span>№2. Классы и объекты. Диаграммы классов.</span>
+<span>...</span>
+</label>
+<input id=001fa359-1 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/clases-and-class-diagrams>Урок №2. Классы и объекты. Диаграммы классов.</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.3.php>Metanit - Поля и структуры для чтения</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.21.php>Metanit - Частичные классы и методы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.46.php>Metanit - Создание библиотеки классов</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods>Microsoft Docs - Partial Classes and Methods (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants>Microsoft Docs - Constants (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=d27413ec-2>
+<span>№3. Наследование и полиморфизм в C#</span>
+<span>...</span>
+</label>
+<input id=d27413ec-2 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/inheritance>Урок №3. Наследование и полиморфизм в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.7.php>Metanit - Наследование</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.2.php>Metanit - Модификаторы доступа</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.11.php>Metanit - Преобразование типов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.19.php>Metanit - Виртуальные методы и свойства</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.41.php>Metanit - Скрытие методов и свойств</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.42.php>Metanit - Различие переопределения и скрытия методов</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance>Microsoft Docs - Inheritance - derive types to create more specialized behavior</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers>Microsoft Docs - Access Modifiers (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/inheritance>Microsoft Docs - Inheritance in C# and .NET</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/polymorphism>Microsoft Docs - Polymorphism</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/versioning-with-the-override-and-new-keywords>Microsoft Docs - Versioning with the Override and New Keywords (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/knowing-when-to-use-override-and-new-keywords>Microsoft Docs - Knowing When to Use Override and New Keywords (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop>Microsoft Docs - Object-Oriented programming (C#)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=1637b8d4-3>
+<span>№4. Абстракция. Абстрактные классы и интерфейсы</span>
+<span>...</span>
+</label>
+<input id=1637b8d4-3 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/abstraction>Урок №4. Абстракция. Абстрактные классы и интерфейсы</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.8.php>Metanit - Абстрактные классы и члены классов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.9.php>Metanit - Определение интерфейсов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.49.php>Metanit - Применение интерфейсов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.44.php>Metanit - Явная реализация интерфейсов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.44.php>Metanit - Реализация интерфейсов в базовых и производных классах</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.44.php>Metanit - Наследование интерфейсов</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members>Microsoft Docs - Abstract and Sealed Classes and Class Members (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-define-abstract-properties>Microsoft Docs - How to define abstract properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces>Microsoft Docs - Interfaces - define behavior for multiple types</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/interface-properties>Microsoft Docs - Interface Properties (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation>Microsoft Docs - Explicit Interface Implementation (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/how-to-explicitly-implement-interface-members>Microsoft Docs - How to explicitly implement interface members (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/how-to-explicitly-implement-members-of-two-interfaces>Microsoft Docs - How to explicitly implement members of two interfaces (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=0ee346b9-4>
+<span>№5. Массивы и индексаторы</span>
+<span>...</span>
+</label>
+<input id=0ee346b9-4 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/arrays-and-indexers>Урок №5. Массивы и индексаторы</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.4.php>Metanit - Массивы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.7.php>Metanit - Задачи с массивами</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/4.10.php>Metanit - Индексаторы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/20.5.php>Metanit - Класс Array и массивы</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/>Microsoft Docs - Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays>Microsoft Docs - Single-Dimensional Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays>Microsoft Docs - Multidimensional Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays>Microsoft Docs - Jagged Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/passing-arrays-as-arguments>Microsoft Docs - Passing arrays as arguments (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/implicitly-typed-arrays>Microsoft Docs - Implicitly Typed Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/indexers>Microsoft Docs - Indexers</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/>Microsoft Docs - Indexers (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/using-indexers>Microsoft Docs - Using indexers (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/indexers-in-interfaces>Microsoft Docs - Indexers in Interfaces (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/comparison-between-properties-and-indexers>Microsoft Docs - Comparison Between Properties and Indexers (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=3eadf8c1-5>
+<span>№6. Статические и вложенные классы</span>
+<span>...</span>
+</label>
+<input id=3eadf8c1-5 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/nested-classes>Урок №6. Статические и вложенные классы</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.6.php>Metanit - Статические члены и модификатор static</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.18.php>Metanit - Методы расширения</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members>Microsoft Docs - Static Classes and Static Class Members (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods>Microsoft Docs - Extension Methods (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-implement-and-call-a-custom-extension-method>Microsoft Docs - How to implement and call a custom extension method (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors>Microsoft Docs - Static Constructors (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/nested-types>Microsoft Docs - Nested Types (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=1db7abd4-6>
+<span>№7. Структуры и их разновидности</span>
+<span>...</span>
+</label>
+<input id=1db7abd4-6 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/structs>Урок №7. Структуры и их разновидности</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.13.php>Metanit - Структуры</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.16.php>Metanit - Типы значений и ссылочные типы</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct>Microsoft Docs - Structure types (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-know-the-difference-passing-a-struct-and-passing-a-class-to-a-method>Microsoft Docs - How to know the difference between passing a struct and passing a class reference to a method (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=30111a85-7>
+<span>№8. Перечисления (enum)</span>
+<span>...</span>
+</label>
+<input id=30111a85-7 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/enums>Урок №8. Перечисления (enum)</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.12.php>Metanit - Перечисления enum</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/19.1.php>Metanit - Структура DateTime</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/19.2.php>Metanit - Форматирование дат и времени</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/19.3.php>Metanit - DateOnly и TimeOnly</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum>Microsoft Docs - Enumeration types (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing>Microsoft Docs - Boxing and Unboxing (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=2fe260b4-8>
+<span>№9. Делегаты</span>
+<span>...</span>
+</label>
+<input id=2fe260b4-8 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/delegates>Урок №9. Делегаты</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.13.php>Metanit - Делегаты</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.43.php>Metanit - Применение делегатов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.15.php>Metanit - Анонимные методы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.16.php>Metanit - Лямбды</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.54.php>Metanit - Замыкания</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/delegates-overview>Microsoft Docs - Introduction to delegates and events in C#</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/delegate-class>Microsoft Docs - System.Delegate and the delegate keyword</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/delegates-patterns>Microsoft Docs - Common patterns for delegates</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/>Microsoft Docs - Delegates (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates>Microsoft Docs - Using Delegates (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods>Microsoft Docs - Delegates with Named vs. Anonymous Methods (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/how-to-combine-delegates-multicast-delegates>Microsoft Docs - How to combine delegates (Multicast Delegates) (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/how-to-declare-instantiate-and-use-a-delegate>Microsoft Docs - How to declare, instantiate, and use a Delegate (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=7a6e7301-9>
+<span>№10. Универсальные шаблоны (generics) в C#</span>
+<span>...</span>
+</label>
+<input id=7a6e7301-9 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/generics>Урок №10. Универсальные шаблоны (generics) в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.12.php>Metanit - Обобщения</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.39.php>Metanit - Наследование обобщенных типов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.17.php>Metanit - Null и значимые типы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.26.php>Metanit - Проверка на null, операторы ?. и ??</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.28.php>Metanit - Ковариантность и контравариантность делегатов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.33.php>Metanit - Делегаты Action, Predicate и Func</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics>Microsoft Docs - Generic classes and methods</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-classes>Microsoft Docs - Generic Classes (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-interfaces>Microsoft Docs - Generic Interfaces (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-methods>Microsoft Docs - Generic Methods (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-and-arrays>Microsoft Docs - Generics and Arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-delegates>Microsoft Docs - Generic Delegates (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time>Microsoft Docs - Generics in the Run Time (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time>Microsoft Docs - Generics in the Run Time (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/>Microsoft Docs - Covariance and Contravariance (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/variance-in-generic-interfaces>Microsoft Docs - Variance in Generic Interfaces (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/creating-variant-generic-interfaces>Microsoft Docs - Creating Variant Generic Interfaces (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-interfaces-for-generic-collections>Microsoft Docs - Using Variance in Interfaces for Generic Collections (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/variance-in-delegates>Microsoft Docs - Variance in Delegates (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-delegates>Microsoft Docs - Using Variance in Delegates (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-for-func-and-action-generic-delegates>Microsoft Docs - Using Variance for Func and Action Generic Delegates (C#)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-type-parameters>Microsoft Docs - Generic type parameters (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=d25031c6-10>
+<span>№11. Ограничения универсальных шаблонов в C#</span>
+<span>...</span>
+</label>
+<input id=d25031c6-10 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/generics-constraints>Урок №11. Ограничения универсальных шаблонов в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.38.php>Metanit - Ограничения обобщений</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters>Microsoft Docs - Constraints on type parameters (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=9bf86343-11>
+<span>№12. События (events) в C#</span>
+<span>...</span>
+</label>
+<input id=9bf86343-11 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/events>Урок №12. События (events) в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.14.php>Metanit - События</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.14.php>Metanit - События</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/events-overview>Microsoft Docs - Introduction to events</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/>Microsoft Docs - Events (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-subscribe-to-and-unsubscribe-from-events>Microsoft Docs - How to subscribe to and unsubscribe from events (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-publish-events-that-conform-to-net-framework-guidelines>Microsoft Docs - How to publish events that conform to .NET Guidelines (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-raise-base-class-events-in-derived-classes>Microsoft Docs - How to raise base class events in derived classes (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-implement-interface-events>Microsoft Docs - How to implement interface events (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/how-to-implement-custom-event-accessors>Microsoft Docs - How to implement custom event accessors (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/event-pattern>Microsoft Docs - Standard .NET event patterns</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/modern-events>Microsoft Docs - The Updated .NET Core Event Pattern</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events>Microsoft Docs - Distinguishing Delegates and Events</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=f637a049-12>
+<span>№13. Потоки (threads) в C#</span>
+<span>...</span>
+</label>
+<input id=f637a049-12 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/threads>Урок №13. Потоки (threads) в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.1.php>Metanit - Введение в многопоточность. Класс Thread</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.2.php>Metanit - Создание потоков. Делегат ThreadStart</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.3.php>Metanit - Потоки с параметрами и ParameterizedThreadStart</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.4.php>Metanit - Синхронизация потоков</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.5.php>Metanit - Мониторы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.6.php>Metanit - Класс AutoResetEvent</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.7.php>Metanit - Мьютексы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/11.8.php>Metanit - Семафоры</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread?view=net-6.0">Microsoft Docs - Thread Class</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadstart?view=net-6.0">Microsoft Docs - ThreadStart Delegate</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.parameterizedthreadstart?view=net-6.0">Microsoft Docs - ParameterizedThreadStart Delegate</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock>Microsoft Docs - lock statement (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0">Microsoft Docs - Monitor Class</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=b32e1422-13>
+<span>№14. Коллекции в C#</span>
+<span>...</span>
+</label>
+<input id=b32e1422-13 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/collections>Урок №14. Коллекции в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/4.5.php>Metanit - Список List<t></a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/4.9.php>Metanit - Коллекция Dictionary<k, v></a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/4.11.php>Metanit - Интерфейсы IEnumerable и IEnumerator</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/4.12.php>Metanit - Итераторы и оператор yield</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0">Microsoft Docs - IEnumerable Interface</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-6.0">Microsoft Docs - IEnumerator Interface</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0">Microsoft Docs - IEnumerable<t> Interface</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?view=net-6.0">Microsoft Docs - IEnumerator<t> Interface</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements>Microsoft Docs - Iteration statements (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/using-foreach-with-arrays>Microsoft Docs - Using foreach with arrays (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield>Microsoft Docs - yield (C# Reference)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=11bda504-14>
+<span>№15. Обработка исключений (exception)</span>
+<span>...</span>
+</label>
+<input id=11bda504-14 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/exception-handling>Урок №15. Обработка исключений (exception)</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.14.php>Metanit - Конструкция try..catch..finally</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.28.php>Metanit - Блок catch и фильтры исключений</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.29.php>Metanit - Типы исключений. Класс Exception</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.31.php>Metanit - Генерация исключения и оператор throw</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.17.php>Metanit - Создание классов исключений</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/2.30.php>Metanit - Поиск блока catch при обработке исключений</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/>Microsoft Docs - Exceptions and Exception Handling</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/using-exceptions>Microsoft Docs - Use exceptions</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/exception-handling>Microsoft Docs - Exception Handling (C# Programming Guide)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions>Microsoft Docs - Creating and Throwing Exceptions</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/compiler-generated-exceptions>Microsoft Docs - Compiler-generated exceptions</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw>Microsoft Docs - throw (C# Reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch>Microsoft Docs - try-catch (C# Reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-finally>Microsoft Docs - try-finally (C# Reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch-finally>Microsoft Docs - try-catch-finally (C# Reference)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=b3a2ba40-15>
+<span>№16. Перегрузка операторов в C#</span>
+<span>...</span>
+</label>
+<input id=b3a2ba40-15 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/operators>Урок №16. Перегрузка операторов в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.10.php>Metanit - Класс System.Object и его методы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.36.php>Metanit - Определение операторов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.37.php>Metanit - Перегрузка операций преобразования типов</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-6.0">Microsoft Docs - Object Class</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading>Microsoft Docs - Operator overloading (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators>Microsoft Docs - User-defined conversion operators (C# reference)</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.object.memberwiseclone?view=net-6.0">Microsoft Docs - Object.MemberwiseClone Method</a></li>
+<li><a class=gdoc-markdown__link href="https://docs.microsoft.com/en-us/dotnet/api/system.icloneable?view=net-6.0">Microsoft Docs - ICloneable Interface</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=60d8f02d-16>
+<span>№17. Анонимные и динамические типы. LINQ.</span>
+<span>...</span>
+</label>
+<input id=60d8f02d-16 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/anonymous-types>Урок №17. Анонимные и динамические типы. LINQ.</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.20.php>Metanit - Анонимные типы</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.1.php>Metanit - Основы LINQ</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/13.6.php>Metanit - Проекция данных</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.2.php>Metanit - Фильтрация коллекции</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.3.php>Metanit - Сортировка</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.4.php>Metanit - Объединение, пересечение и разность коллекций</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.5.php>Metanit - Агрегатные операции</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.11.php>Metanit - Методы Skip и Take</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.6.php>Metanit - Группировка</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.7.php>Metanit - Соединение коллекций</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.10.php>Metanit - Проверка наличия и получение элементов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.8.php>Metanit - Отложенное и немедленное выполнение LINQ</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/15.9.php>Metanit - Делегаты в запросах LINQ</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/9.1.php>Metanit - DLR в C#. Ключевое слово dynamic</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types>Microsoft Docs - Anonymous types</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/>Microsoft Docs - Language Integrated Query (LINQ)</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/query-expression-basics>Microsoft Docs - Query expression basics</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/linq-in-csharp>Microsoft Docs - LINQ in C#</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/write-linq-queries>Microsoft Docs - Write LINQ queries in C#</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/query-a-collection-of-objects>Microsoft Docs - Query a collection of objects</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/return-a-query-from-a-method>Microsoft Docs - How to return a query from a method</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/store-the-results-of-a-query-in-memory>Microsoft Docs - Store the results of a query in memory</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/group-query-results>Microsoft Docs - Group query results</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/create-a-nested-group>Microsoft Docs - Create a nested group</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-a-subquery-on-a-grouping-operation>Microsoft Docs - Perform a subquery on a grouping operation</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/group-results-by-contiguous-keys>Microsoft Docs - Group results by contiguous keys</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/dynamically-specify-predicate-filters-at-runtime>Microsoft Docs - Dynamically specify predicate filters at run time</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-inner-joins>Microsoft Docs - Perform inner joins</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-grouped-joins>Microsoft Docs - Perform grouped joins</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-left-outer-joins>Microsoft Docs - Perform left outer joins</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/order-the-results-of-a-join-clause>Microsoft Docs - Order the results of a join clause</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/join-by-using-composite-keys>Microsoft Docs - Join by using composite keys</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/perform-custom-join-operations>Microsoft Docs - Perform custom join operations</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/handle-null-values-in-query-expressions>Microsoft Docs - Handle null values in query expressions</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/linq/handle-exceptions-in-query-expressions>Microsoft Docs - Handle exceptions in query expressions</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic>Microsoft Docs - Using type dynamic (C# Programming Guide)</a></li>
+</ul>
+</div>
+</div>
+<div class=gdoc-expand>
+<label class="gdoc-expand__head flex justify-between" for=a085388f-17>
+<span>№18. ространства имен. Директивы препроцессора в C#</span>
+<span>...</span>
+</label>
+<input id=a085388f-17 type=checkbox class="gdoc-expand__control hidden">
+<div class="gdoc-markdown--nested gdoc-expand__content">
+<div class=gdoc-page__anchorwrap>
+<h3 id=основные-материалы>
+Основные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#основные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Основные материалы" aria-label="Anchor to: Основные материалы" href=#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<p><a class=gdoc-markdown__link href=https://itvdn.com/ru/video/csharp-essential/namespaces>Урок №18. Пространства имен. Директивы препроцессора в C#</a></p>
+<div class=gdoc-page__anchorwrap>
+<h3 id=дополнительные-материалы>
+Дополнительные материалы
+<a data-clipboard-text=http://localhost/u02-csharp/p02-csharp-essential/theory/#дополнительные-материалы class="gdoc-page__anchor clip flex align-center" title="Anchor to: Дополнительные материалы" aria-label="Anchor to: Дополнительные материалы" href=#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg>
+</a>
+</h3>
+</div>
+<ul>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.46.php>Metanit - Создание библиотеки классов</a></li>
+<li><a class=gdoc-markdown__link href=https://metanit.com/sharp/tutorial/3.25.php>Metanit - Пространства имен</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace>Microsoft Docs - namespace</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces>Microsoft Docs - Declare namespaces to organize types</a></li>
+<li><a class=gdoc-markdown__link href=https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives>Microsoft Docs - C# preprocessor directives</a></li>
+</ul>
+</div>
+</div>
+</article>
+<div class="gdoc-page__footer flex flex-wrap justify-between">
+<span class=gdoc-page__nav>
+<a class="gdoc-page__nav--prev flex align-center" href=/u02-csharp/p02-csharp-essential/ title="P02 - C# Essential (OOP)">
+<i class=gdoc-icon>gdoc_arrow_left_alt</i>
+P02 - C# Essential (OOP)
+</a>
+</span>
+<span class=gdoc-page__nav>
+<a class="gdoc-page__nav--next flex align-center" href=/u02-csharp/p02-csharp-essential/questions-for-interview/ title="Questions for Interview">
+Questions for Interview
+<i class=gdoc-icon>gdoc_arrow_right_alt</i>
+</a>
+</span>
+</div>
+</div>
+</main>
+<footer class=gdoc-footer>
+<nav class="container flex">
+<div>
+<section class="flex flex-wrap align-center">
+<span class="gdoc-footer__item gdoc-footer__item--row">
+Built with <a href=https://gohugo.io/ class=gdoc-footer__link>Hugo</a> and<svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"/></svg>
+</span>
+</section>
+</div>
+<div class="flex flex-25 justify-end">
+<span class="gdoc-footer__item text-right">
+<a class="gdoc-footer__link fake-link" href=# aria-label="Back to top"><svg class="gdoc-icon gdoc_keyboard_arrow_up"><use xlink:href="#gdoc_keyboard_arrow_up"/></svg>
+<span class=hidden-mobile>Back to top</span>
+</a>
+</span>
+</div>
+</nav>
+</footer>
+</div>
+<script defer src=/js/search-1c4cfb2d.bundle.min.js></script>
+</body>
+</html>
