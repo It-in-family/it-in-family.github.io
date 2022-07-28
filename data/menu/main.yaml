@@ -101,3 +101,29 @@ main:
           ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-codewars-code-practice"
         - name: Additional tasks
           ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-additional"
+  - name: U04 - Entity Framework
+    ref: "/u04-entity-framework"
+    icon: "gdoc_tag"
+    sub:
+    - name: P01 - Entity Framework 6
+      ref: "/u04-entity-framework/p01-entity-framework-6"
+      sub:
+      - name: Theory
+        ref: "/u04-entity-framework/p01-entity-framework-6/theory"
+      - name: Questions for Interview
+        ref: "/u04-entity-framework/p01-entity-framework-6/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u04-entity-framework/p01-entity-framework-6/practice/tasks-additional"
+    - name: P02 - Entity Framework Core
+      ref: "/u04-entity-framework/p02-entity-framework-core"
+      sub:
+      - name: Theory
+        ref: "/u04-entity-framework/p02-entity-framework-core/theory"
+      - name: Questions for Interview
+        ref: "/u04-entity-framework/p02-entity-framework-core/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u04-entity-framework/p02-entity-framework-core/practice/tasks-additional"
