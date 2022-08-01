@@ -127,3 +127,15 @@ main:
         sub:
         - name: Additional tasks
           ref: "/u04-entity-framework/p02-entity-framework-core/practice/tasks-additional"
+  - name: U06 - Asynс Programming
+    ref: "/u06-async-programming"
+    icon: "gdoc_tag"
+    sub:
+    - name: Theory
+      ref: "/u06-async-programming/theory"
+    - name: Questions for Interview
+      ref: "/u06-async-programming/questions-for-interview"
+    - name: Practice
+      sub:
+        - name: Additional tasks
+          ref: "/u06-async-programming/practice/tasks-additional"
