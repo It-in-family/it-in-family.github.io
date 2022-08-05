@@ -133,6 +133,18 @@ main:
         sub:
         - name: Additional tasks
           ref: "/u04-entity-framework/p02-entity-framework-core/practice/tasks-additional"
+  - name: U05 - Unit Testing
+    ref: "/u05-csharp-unit-testing"
+    icon: "gdoc_tag"
+    sub:
+    - name: Theory
+      ref: "/u05-csharp-unit-testing/theory"
+    - name: Questions for Interview
+      ref: "/u05-csharp-unit-testing/questions-for-interview"
+    - name: Practice
+      sub:
+      - name: Additional tasks
+        ref: "/u05-csharp-unit-testing/practice/tasks-additional"
   - name: U06 - Asynс Programming
     ref: "/u06-async-programming"
     icon: "gdoc_tag"
@@ -143,8 +155,8 @@ main:
       ref: "/u06-async-programming/questions-for-interview"
     - name: Practice
       sub:
-        - name: Additional tasks
-          ref: "/u06-async-programming/practice/tasks-additional"
+      - name: Additional tasks
+        ref: "/u06-async-programming/practice/tasks-additional"
   - name: U07 - Patterns
     ref: "/u07-csharp-patterns"
     icon: "gdoc_tag"
