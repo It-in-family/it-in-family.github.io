@@ -133,7 +133,7 @@ main:
         sub:
         - name: Additional tasks
           ref: "/u04-entity-framework/p02-entity-framework-core/practice/tasks-additional"
-  - name: U05 - ASP.NET Core Essential
+  - name: U05 - ASP.NET Core
     ref: "/u05-asp-net-core"
     icon: "gdoc_tag"
     sub:
