@@ -133,39 +133,51 @@ main:
         sub:
         - name: Additional tasks
           ref: "/u04-entity-framework/p02-entity-framework-core/practice/tasks-additional"
-  - name: U05 - Unit Testing
-    ref: "/u05-csharp-unit-testing"
+  - name: U05 - ASP.NET Core
+    ref: "/u05-asp-net-core"
     icon: "gdoc_tag"
     sub:
     - name: Theory
-      ref: "/u05-csharp-unit-testing/theory"
+      ref: "/u05-asp-net-core/theory"
     - name: Questions for Interview
-      ref: "/u05-csharp-unit-testing/questions-for-interview"
+      ref: "/u05-asp-net-core/questions-for-interview"
     - name: Practice
       sub:
       - name: Additional tasks
-        ref: "/u05-csharp-unit-testing/practice/tasks-additional"
-  - name: U06 - Asynс Programming
-    ref: "/u06-async-programming"
+        ref: "/u05-asp-net-core/practice/tasks-additional"
+  - name: U06 - Unit Testing
+    ref: "/u06-csharp-unit-testing"
     icon: "gdoc_tag"
     sub:
     - name: Theory
-      ref: "/u06-async-programming/theory"
+      ref: "/u06-csharp-unit-testing/theory"
     - name: Questions for Interview
-      ref: "/u06-async-programming/questions-for-interview"
+      ref: "/u06-csharp-unit-testing/questions-for-interview"
     - name: Practice
       sub:
       - name: Additional tasks
-        ref: "/u06-async-programming/practice/tasks-additional"
-  - name: U07 - Patterns
-    ref: "/u07-csharp-patterns"
+        ref: "/u06-csharp-unit-testing/practice/tasks-additional"
+  - name: U07 - Asynс Programming
+    ref: "/u07-async-programming"
     icon: "gdoc_tag"
     sub:
     - name: Theory
-      ref: "/u07-csharp-patterns/theory"
+      ref: "/u07-async-programming/theory"
     - name: Questions for Interview
-      ref: "/u07-csharp-patterns/questions-for-interview"
+      ref: "/u07-async-programming/questions-for-interview"
     - name: Practice
       sub:
       - name: Additional tasks
-        ref: "/u07-csharp-patterns/practice/tasks-additional"
+        ref: "/u07-async-programming/practice/tasks-additional"
+  - name: U08 - Patterns
+    ref: "/u08-csharp-patterns"
+    icon: "gdoc_tag"
+    sub:
+    - name: Theory
+      ref: "/u08-csharp-patterns/theory"
+    - name: Questions for Interview
+      ref: "/u08-csharp-patterns/questions-for-interview"
+    - name: Practice
+      sub:
+      - name: Additional tasks
+        ref: "/u08-csharp-patterns/practice/tasks-additional"
