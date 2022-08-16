@@ -137,14 +137,39 @@ main:
     ref: "/u05-asp-net-core"
     icon: "gdoc_tag"
     sub:
-    - name: Theory
-      ref: "/u05-asp-net-core/theory"
-    - name: Questions for Interview
-      ref: "/u05-asp-net-core/questions-for-interview"
-    - name: Practice
+    - name: P01 - HTML5 & CSS3
+      ref: "/u05-asp-net-core/p01-html"
       sub:
-      - name: Additional tasks
-        ref: "/u05-asp-net-core/practice/tasks-additional"
+      - name: Theory
+        ref: "/u05-asp-net-core/p01-html/theory"
+      - name: Questions for Interview
+        ref: "/u05-asp-net-core/p01-html/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u05-asp-net-core/p01-html/practice/tasks-additional"
+    - name: P02 - JavaScript
+      ref: "/u05-asp-net-core/p02-java-script"
+      sub:
+      - name: Theory
+        ref: "/u05-asp-net-core/p02-java-script/theory"
+      - name: Questions for Interview
+        ref: "/u05-asp-net-core/p02-java-script/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u05-asp-net-core/p02-java-script/practice/tasks-additional"
+    - name: P03 - ASP.NET Core
+      ref: "/u05-asp-net-core/p03-asp-net-core"
+      sub:
+      - name: Theory
+        ref: "/u05-asp-net-core/p03-asp-net-core/theory"
+      - name: Questions for Interview
+        ref: "/u05-asp-net-core/p03-asp-net-core/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u05-asp-net-core/p03-asp-net-core/practice/tasks-additional"
   - name: U06 - Unit Testing
     ref: "/u06-csharp-unit-testing"
     icon: "gdoc_tag"
