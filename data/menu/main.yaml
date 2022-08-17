@@ -107,6 +107,17 @@ main:
           ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-codewars-code-practice"
         - name: Additional tasks
           ref: "/u03-databases/p02-databases-sql-essential/practice/tasks-additional"
+    - name: P03 - ADO.NET
+      ref: "/u03-databases/p03-ado-net"
+      sub:
+      - name: Theory
+        ref: "/u03-databases/p03-ado-net/theory"
+      - name: Questions for Interview
+        ref: "/u03-databases/p03-ado-net/questions-for-interview"
+      - name: Practice
+        sub:
+        - name: Additional tasks
+          ref: "/u03-databases/p03-ado-net/practice/tasks-additional"
   - name: U04 - Entity Framework
     ref: "/u04-entity-framework"
     icon: "gdoc_tag"
