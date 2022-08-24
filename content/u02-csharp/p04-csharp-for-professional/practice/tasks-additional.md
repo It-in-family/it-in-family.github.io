@@ -41,6 +41,6 @@
 1. Найдите топ 10 пользователей, которые оставили больше всего оценок для фильмов
 2. Замерьте скорость поиска по файлу
 
-Данные берем из файла [raitings.txt](../ratings.zip "download")
+Данные берем из файла [raitings.txt](https://drive.google.com/file/d/1fcMPjqJhh3cOnnwKjoQkAvBpGShq6c0C/view?usp=sharing "download")
 
 Поля в файле raitings.txt по порядку: ```MovieId, UserId, Raiting, Date```
