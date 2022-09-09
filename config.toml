@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://it-in-family.github.io/"
 title = "IT in Family"
 theme = "hugo-geekdoc"
 
@@ -27,3 +27,6 @@ enableRobotsTXT = true
 [params]
    geekdocLogo = "logo.svg"
    geekdocMenuBundle = true
+   geekdocRepo = "https://github.com/It-in-family/it-in-family.github.io"
+   geekdocEditPath = "blob/main"
+   geekdocCollapseAllSections = true
