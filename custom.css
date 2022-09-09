@@ -1,1 +1,48 @@
 /* You can add custom styles here. */
+.wrapper-start-btn{
+    text-align: center;
+}
+
+.start-btn {
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    outline: none;
+    overflow: hidden;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.start-btn:hover {
+    box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+    background: #498bcb!important;
+    opacity: .85;
+}
+
+.start-btn:active {
+    outline: 0;
+}
+
+.start-btn:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}

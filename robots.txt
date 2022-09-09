@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: http://localhost/sitemap.xml
+Sitemap: https://it-in-family.github.io/sitemap.xml
