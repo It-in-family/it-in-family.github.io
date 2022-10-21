@@ -27,7 +27,6 @@ geekdocCollapseSection: true
    - [Github Desktop — обзор графического Git клиента](https://www.youtube.com/watch?v=v7GbxUnwRY8)
    - [How to use GitHub Desktop: The easy tutorial(Part1)](https://www.youtube.com/watch?v=RPagOAUx2SQ)
    - [How to use GitHub Desktop: The easy tutorial(Part2)](https://www.youtube.com/watch?v=GOY9wMyr7pU)
-   - 
 {{< /expand >}}
 
 [Материалы об инструментах (GUI-клиентах) упрощающих работы с GIT]:----------------------------------------------------------
